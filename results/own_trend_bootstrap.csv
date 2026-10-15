@@ -1,0 +1,4 @@
+target_year,best_own_model,rho_lead1_minus_own,lo95,hi95
+2024,slopeall,0.389,0.139,0.657
+2025,slopeall_cal,0.188,-0.048,0.456
+2026,slopeall_cal,0.119,-0.089,0.327

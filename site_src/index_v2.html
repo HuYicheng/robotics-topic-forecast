@@ -1,0 +1,379 @@
+<title>Robotics Topic Forecast</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: header band, then five views (Outlook, Charts, Signals, Does it work?, Method) switched by tabs; one column on phones.
+   Same family as the Robotics and ML & CV trend pages: robotics amber, ML/CV violet, ML/CV papers about robots teal. */
+:root {
+  --bg: #f3f5f4; --surface: #ffffff; --fg: #16191c; --muted: #59616a; --line: #dbe0de; --grid: #e8ecea;
+  --accent: #4a3aa7; --accent-soft: #ece9f9; --accent-ink: #ffffff;
+  --mlcv: #4a3aa7; --emb: #0f7b74; --rob: #b25a0c; --rob-band: rgba(178, 90, 12, 0.16);
+  --rise: #2a78d6; --fall: #d63c3b; --flat: #6f6e6a;
+  --font-display: "IBM Plex Sans Condensed", "Arial Narrow", "Helvetica Neue", sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --radius: 6px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121518; --surface: #1a1e22; --fg: #e6e8ea; --muted: #9aa3ab; --line: #2c3238; --grid: #23282d;
+    --accent: #9a8ff0; --accent-soft: #292545; --accent-ink: #121518;
+    --mlcv: #9a8ff0; --emb: #3cc2b8; --rob: #eb9a4e; --rob-band: rgba(235, 154, 78, 0.18);
+    --rise: #4a95ec; --fall: #ec6f6e; --flat: #959ba1; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121518; --surface: #1a1e22; --fg: #e6e8ea; --muted: #9aa3ab; --line: #2c3238; --grid: #23282d;
+  --accent: #9a8ff0; --accent-soft: #292545; --accent-ink: #121518;
+  --mlcv: #9a8ff0; --emb: #3cc2b8; --rob: #eb9a4e; --rob-band: rgba(235, 154, 78, 0.18);
+  --rise: #4a95ec; --fall: #ec6f6e; --flat: #959ba1; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--font-body); margin: 0; }
+.wrap { max-width: 1320px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 48px; }
+a { color: var(--accent); }
+a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+header.top { padding-block: 28px 18px; display: grid; gap: 6px; }
+h1 { font: 600 2rem/1.1 var(--font-display); letter-spacing: 0.01em; margin: 0; text-wrap: balance; }
+h2 { font: 600 1.15rem/1.2 var(--font-display); margin: 0; text-wrap: balance; }
+h3 { font: 600 0.95rem/1.25 var(--font-body); margin: 0; }
+.lede { color: var(--muted); max-width: 74ch; margin: 0; }
+.note { font-size: 0.85rem; color: var(--muted); margin: 0; max-width: 92ch; }
+nav.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin-block: 8px 20px; flex-wrap: wrap; }
+nav.tabs button { font: 500 0.95rem var(--font-body); color: var(--muted); background: none; border: 0; border-bottom: 2px solid transparent;
+  padding: 10px 14px; cursor: pointer; margin-bottom: -1px; }
+nav.tabs button[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--accent); }
+.controls { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
+.controls label { font-size: 0.85rem; color: var(--muted); display: inline-flex; gap: 6px; align-items: center; }
+select, input[type="search"] { font: 0.9rem var(--font-body); color: var(--fg); background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 6px 8px; }
+.tablewrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+th, td { padding: 7px 8px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; vertical-align: middle; }
+th { font: 600 0.72rem var(--font-body); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); background: var(--surface);
+  white-space: normal; vertical-align: bottom; }
+th.l, td.l { text-align: left; white-space: normal; }
+th.c, td.c { text-align: center; }
+td.topic { min-width: 13rem; }
+td.topic .fam { display: block; font-size: 0.74rem; color: var(--muted); }
+td.num { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+td.num .iv { color: var(--muted); font-size: 0.8rem; }
+tbody tr.click { cursor: pointer; }
+tbody tr.click:hover { background: var(--accent-soft); }
+.pill { font: 500 0.76rem var(--font-body); padding: 1px 8px; border-radius: 999px; border: 1px solid currentColor; display: inline-block; }
+.pill.rise { color: var(--rise); } .pill.fall { color: var(--fall); } .pill.unclear { color: var(--flat); }
+.sg { font: 500 0.8rem var(--font-data); display: inline-block; width: 1.4em; text-align: center; }
+.sg.up { color: var(--rise); } .sg.dn { color: var(--fall); } .sg.na { color: var(--line); } .sg.flat { color: var(--flat); }
+.mixed { font-size: 0.74rem; color: var(--muted); display: block; }
+.key { display: inline-flex; gap: 14px; flex-wrap: wrap; font-size: 0.85rem; color: var(--muted); align-items: center; }
+.key i { display: inline-block; width: 18px; height: 3px; border-radius: 2px; vertical-align: middle; margin-right: 5px; }
+.key i.r { background: var(--rob); } .key i.m { background: var(--mlcv); } .key i.e { background: var(--emb); }
+.key i.f { width: 9px; height: 9px; border-radius: 50%; background: var(--rob); }
+svg text { fill: var(--muted); font: 10px var(--font-data); }
+svg .gridl { stroke: var(--grid); stroke-width: 1; }
+svg .axis { stroke: var(--line); stroke-width: 1; }
+svg .lr { stroke: var(--rob); fill: none; stroke-width: 2; }
+svg .lm { stroke: var(--mlcv); fill: none; stroke-width: 1.5; }
+svg .lmp { stroke: var(--mlcv); fill: none; stroke-width: 1.5; stroke-dasharray: 2 2; }
+svg .le { stroke: var(--emb); fill: none; stroke-width: 1.5; }
+svg .br { fill: var(--rob-band); stroke: none; }
+svg .dr { fill: var(--rob); }
+svg .fcl { stroke: var(--rob); stroke-width: 2; stroke-dasharray: 3 3; fill: none; }
+svg .fc80 { stroke: var(--rob); stroke-width: 3; } svg .fc95 { stroke: var(--rob); stroke-width: 1; }
+svg .fcp { fill: var(--surface); stroke: var(--rob); stroke-width: 2; }
+svg.chart { display: block; width: 100%; height: auto; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)); gap: 12px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 12px 6px; display: grid; gap: 3px; min-width: 0; align-content: start; }
+.card .sub { font: 0.78rem var(--font-data); color: var(--muted); font-variant-numeric: tabular-nums; }
+.card .why { font-size: 0.8rem; color: var(--muted); }
+.card.hl { outline: 2px solid var(--accent); }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; display: grid; gap: 8px; min-width: 0; align-content: start; }
+.stack { display: grid; gap: 18px; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 16px; align-items: start; }
+.prose { max-width: 78ch; display: grid; gap: 10px; }
+.prose p, .prose ul, .panel ul, .panel p { margin: 0; }
+.prose li + li, .panel li + li { margin-top: 4px; }
+.panel ul { padding-left: 1.1em; }
+.list li b { font-weight: 600; }
+.list li span { color: var(--muted); font-size: 0.85rem; }
+.warn { border-left: 3px solid var(--rob); padding-left: 10px; }
+.hidden { display: none; }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <h1>Robotics Topic Forecast</h1>
+    <p class="lede">Which topics will grow or shrink in robotics papers in 2027? The forecast covers robotics' own topics (manipulation, humanoids, VLA, sim-to-real…) and ML / vision topics as robotics uses them. It combines six signals, from robotics' own curves to what ML and vision venues publish about robots, and each signal was tested on 2024–2026 before being used.</p>
+    <p class="note" id="datanote"></p>
+  </header>
+  <nav class="tabs" role="tablist">
+    <button role="tab" id="tab-outlook" aria-selected="true" aria-controls="view-outlook">2027 outlook</button>
+    <button role="tab" id="tab-charts" aria-selected="false" aria-controls="view-charts">Charts</button>
+    <button role="tab" id="tab-signals" aria-selected="false" aria-controls="view-signals">The six signals</button>
+    <button role="tab" id="tab-backtest" aria-selected="false" aria-controls="view-backtest">Does it work?</button>
+    <button role="tab" id="tab-method" aria-selected="false" aria-controls="view-method">Method and data</button>
+  </nav>
+
+  <section id="view-outlook" role="tabpanel" aria-labelledby="tab-outlook" class="stack">
+    <div class="grid2" id="summary"></div>
+    <div class="controls">
+      <label for="fgroup">Show
+        <select id="fgroup">
+          <option value="all">all topics</option>
+          <option value="R">robotics topics</option>
+          <option value="learning">· learning methods</option>
+          <option value="platform">· platforms</option>
+          <option value="task">· tasks and perception</option>
+          <option value="method">· classical methods</option>
+          <option value="M">ML / vision topics</option>
+        </select>
+      </label>
+      <label for="fsort">Sort by
+        <select id="fsort">
+          <option value="rank">forecast change</option>
+          <option value="share">2027 share</option>
+          <option value="name">name</option>
+        </select>
+      </label>
+      <label for="fq">Find <input type="search" id="fq" placeholder="topic"></label>
+    </div>
+    <div class="tablewrap">
+      <table id="ftable">
+        <thead><tr>
+          <th class="l">#</th><th class="l">Topic</th><th>2020–2027</th><th>2025</th><th>2026</th><th>2027 forecast<br>(80% interval)</th><th class="l">Direction</th>
+          <th class="c" title="robotics' own slope since 2020">own</th><th class="c" title="room to grow: rarer topics grow faster">room</th><th class="c" title="CoRL + RSS ahead of the other venues">early</th>
+          <th class="c" title="ML/CV papers about robots">ML/CV robot</th><th class="c" title="rising methods spreading into the topic">spread</th><th class="c" title="ML/CV venues overall">ML/CV</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="note">Shares: percentage of robotics papers (ICRA, IROS, RSS, CoRL, T-RO, IJRR, Science Robotics) that name the topic in title or abstract, standardised to the 2025 venue mix. Direction, relative to the average topic: <span class="pill rise">gains ground</span> or <span class="pill fall">loses ground</span> when the whole 80% interval of the forecast change is above or below the average forecast change, otherwise <span class="pill unclear">unclear</span>. Signal columns: <span class="sg up">▲</span> pushes the forecast up, <span class="sg dn">▼</span> down (more than half a standard deviation across topics), <span class="sg flat">·</span> near average, <span class="sg na">–</span> not available. Click a row for its chart.</p>
+  </section>
+
+  <section id="view-charts" role="tabpanel" aria-labelledby="tab-charts" class="stack hidden">
+    <div class="controls">
+      <label for="cgroup">Show
+        <select id="cgroup">
+          <option value="all">all topics</option><option value="R">robotics topics</option><option value="learning">· learning methods</option>
+          <option value="platform">· platforms</option><option value="task">· tasks and perception</option><option value="method">· classical methods</option><option value="M">ML / vision topics</option>
+        </select>
+      </label>
+      <label for="cscale">Scale <select id="cscale"><option value="lin">linear</option><option value="log">logarithmic</option></select></label>
+      <span class="key"><span><i class="r"></i>robotics</span><span><i class="e"></i>ML/CV papers about robots</span><span><i class="m"></i>ML/CV all papers</span><span><i class="f"></i>2027 forecast</span></span>
+    </div>
+    <div class="cards" id="cards"></div>
+    <p class="note">Robotics band: 95% interval. Forecast: thick bar 80%, thin bar 95%. A dashed violet line is the part of ML/CV the "ML/CV" signal uses when it is not all papers (see "The six signals"). Robotics 2026 lacks IROS and CoRL, ML/CV 2026 lacks NeurIPS; both come from the venue model.</p>
+  </section>
+
+  <section id="view-signals" role="tabpanel" aria-labelledby="tab-signals" class="stack hidden">
+    <div class="prose" id="sigprose"></div>
+    <div class="tablewrap"><table id="sgtable"><thead><tr><th class="l">Signal</th><th class="l">What it measures</th><th>Topics</th><th>2024</th><th>2025</th><th>2026 (partial)</th><th>Score without it, 2024</th><th>2025</th><th>2026</th></tr></thead><tbody></tbody></table></div>
+    <p class="note">2024–2026 columns: rank correlation (Spearman) between the signal alone and the actual change, across the topics that have it. "Score without it": the rank correlation of the combined score when this signal is left out; compare with the full score in the last row.</p>
+    <div class="grid2">
+      <div class="panel" id="emerging"></div>
+      <div class="tablewrap"><table id="emtable"><thead><tr><th class="l">Phrase</th><th>Robotics 2024</th><th>2025</th><th>2026</th><th>ML/CV robot papers 2025</th><th>2026</th></tr></thead><tbody></tbody></table></div>
+    </div>
+  </section>
+
+  <section id="view-backtest" role="tabpanel" aria-labelledby="tab-backtest" class="stack hidden">
+    <div class="prose" id="btprose"></div>
+    <div class="tablewrap"><table id="bttable"><thead><tr><th class="l">Model</th><th class="l">Topics</th><th>Rank correlation 2024</th><th>2025</th><th>2026 (partial)</th><th>Mean error 2024</th><th>2025</th><th>2026</th><th>Top-10 hits 2024</th><th>2025</th><th>2026</th></tr></thead><tbody></tbody></table></div>
+    <div class="grid2">
+      <div class="tablewrap"><table id="bstable"><thead><tr><th class="l">Year forecast</th><th>Advantage of the combined score over robotics' own slope</th><th>95% interval</th></tr></thead><tbody></tbody></table></div>
+      <div class="tablewrap"><table id="ovtable"><thead><tr><th class="l">Year forecast</th><th>First version: ML/CV change only</th><th>Combined score</th></tr></thead><tbody></tbody></table></div>
+    </div>
+    <p class="note">Rank correlation: Spearman's ρ between forecast and actual change across topics; mean error: mean absolute error in log-odds of the share; top-10 hits: how many of the 10 topics forecast to rise most were among the 10 that rose most. Each forecast uses only earlier years. Advantage interval: 2,000 bootstrap resamples of topics. Right table: the 42 ML / vision topics both versions cover.</p>
+  </section>
+
+  <section id="view-method" role="tabpanel" aria-labelledby="tab-method" class="stack hidden">
+    <div class="prose" id="method"></div>
+  </section>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(() => {
+const D = JSON.parse(document.getElementById("data").textContent);
+const Y = D.years, YF = 2027, T = D.topics, byKey = Object.fromEntries(T.map(t => [t.k, t]));
+const SIG = ["own", "level", "venue", "emb", "diff", "mlcv"];
+const SIGNAME = { own: "own slope", level: "room to grow", venue: "early venues", emb: "ML/CV robot papers", diff: "methods spreading in", mlcv: "ML/CV overall" };
+const fmt = v => v == null ? "–" : v < 0.1 ? v.toFixed(2) : v.toFixed(1);
+const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
+const famOf = t => t.set === "M" ? "ML / vision topic" : t.fam;
+const inGroup = (t, g) => g === "all" || (g === "R" && t.set === "R") || (g === "M" && t.set === "M") || (t.set === "R" && t.fam === g);
+const lgt = p => { p = Math.max(p, 0.05); return Math.log(p / (100 - p)); };
+const MEANCH = T.reduce((a, t) => a + t.fc.pred_change, 0) / T.length;
+/* gaining / losing ground: the whole 80% interval of the forecast change is above / below the average topic's forecast change */
+function direction(t) { const f = t.fc, b = lgt(f.share_2026); return lgt(f.lo80) - b > MEANCH ? "rise" : lgt(f.hi80) - b < MEANCH ? "fall" : "unclear"; }
+const DIRLAB = { rise: "gains ground", fall: "loses ground", unclear: "unclear" };
+const drivers = (t, sgn) => SIG.filter(s => t.z[s] != null && sgn * t.z[s] > 0.5).map(s => SIGNAME[s]);
+const mixed = t => drivers(t, 1).length && drivers(t, -1).length;
+const nRob = D.n_rob.reduce((a, b) => a + b, 0);
+document.getElementById("datanote").textContent = `Robotics: ${nRob.toLocaleString("en")} research articles, 2020–2026 (2026 so far: ICRA, RSS and the journals; IROS and CoRL not yet published). ML / vision: 85,364 papers at NeurIPS, ICML, ICLR, CVPR, ICCV and ECCV, of which ${D.n_emb.reduce((a, b) => a + b, 0).toLocaleString("en")} are about robots. ${T.length} topics: ${T.filter(t => t.set === "R").length} robotics topics and ${T.filter(t => t.set === "M").length} ML / vision topics.`;
+
+function chart(t, w, h, opt = {}) {
+  const log = opt.log, pad = opt.spark ? { l: 2, r: 6, t: 4, b: 3 } : { l: 34, r: 8, t: 8, b: 18 };
+  const vals = [];
+  t.rob.forEach(v => { vals.push(v[0]); if (v[0] >= 0.01) vals.push(Math.min(v[2], v[0] * 3)); });
+  if (!opt.spark) { (t.emb || []).forEach(v => vals.push(v)); (t.mlcv || []).forEach(v => vals.push(v)); }
+  vals.push(t.fc.hi95);
+  let ymax = Math.max(...vals.filter(v => v != null)) * 1.05, ymin = 0;
+  if (log) { ymin = Math.max(0.05, Math.min(...vals.filter(v => v > 0)) * 0.8); ymin = Math.min(ymin, ymax / 10); }
+  const X = y => pad.l + (y - Y[0]) / (YF - Y[0]) * (w - pad.l - pad.r);
+  const ys = v => log ? Math.log10(Math.max(v, ymin)) : v;
+  const Yp = v => h - pad.b - (ys(Math.min(Math.max(v, ymin), ymax)) - ys(ymin)) / (ys(ymax) - ys(ymin)) * (h - pad.t - pad.b);
+  let s = `<svg class="chart" viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(t.t)}: shares by year">`;
+  if (!opt.spark) {
+    let ticks;
+    if (log) ticks = [0.05, 0.1, 0.2, 0.5, 1, 2, 5, 10, 20, 50].filter(v => v >= ymin && v <= ymax);
+    else { const st = [0.1, 0.2, 0.5, 1, 2, 5, 10, 20].find(q => ymax / q <= 4) || 20; ticks = []; for (let v = 0; v <= ymax; v += st) ticks.push(+v.toFixed(2)); }
+    for (const v of ticks) s += `<line class="gridl" x1="${pad.l}" x2="${w - pad.r}" y1="${Yp(v)}" y2="${Yp(v)}"/><text x="${pad.l - 4}" y="${Yp(v) + 3}" text-anchor="end">${v}%</text>`;
+    for (const y of [2020, 2022, 2024, 2026]) s += `<text x="${X(y)}" y="${h - 4}" text-anchor="middle">${y}</text>`;
+    s += `<text x="${X(YF)}" y="${h - 4}" text-anchor="middle">'27</text>`;
+  } else s += `<line class="axis" x1="${pad.l}" x2="${w - pad.r}" y1="${Yp(0)}" y2="${Yp(0)}"/>`;
+  const line = (a, cls) => a ? `<polyline class="${cls}" points="${a.map((v, i) => `${X(Y[i])},${Yp(v)}`).join(" ")}"/>` : "";
+  if (!opt.spark) { s += line(t.mlcv, "lm"); s += line(t.mlcv_p, "lmp"); s += line(t.emb, "le"); }
+  let run = [];
+  const flush = () => { if (run.length > 1) s += `<polygon class="br" points="${run.map(i => `${X(Y[i])},${Yp(t.rob[i][2])}`).concat(run.map(i => `${X(Y[i])},${Yp(t.rob[i][1])}`).reverse()).join(" ")}"/>`; run = []; };
+  t.rob.forEach((v, i) => { if (v[0] >= 0.01) run.push(i); else flush(); }); flush();
+  s += line(t.rob.map(v => v[0]), "lr");
+  const f = t.fc, x = X(YF);
+  s += `<line class="fcl" x1="${X(2026)}" y1="${Yp(t.rob[6][0])}" x2="${x}" y2="${Yp(f.share_2027)}"/>`;
+  s += `<line class="fc95" x1="${x}" x2="${x}" y1="${Yp(f.lo95)}" y2="${Yp(f.hi95)}"/><line class="fc80" x1="${x}" x2="${x}" y1="${Yp(f.lo80)}" y2="${Yp(f.hi80)}"/>`;
+  s += `<circle class="dr" cx="${X(2026)}" cy="${Yp(t.rob[6][0])}" r="2.5"/><circle class="fcp" cx="${x}" cy="${Yp(f.share_2027)}" r="3.5"/>`;
+  return s + "</svg>";
+}
+const sgCell = (t, s) => {
+  const z = t.z[s];
+  if (z == null) return `<td class="c"><span class="sg na">–</span></td>`;
+  const c = z > 0.5 ? "up" : z < -0.5 ? "dn" : "flat";
+  return `<td class="c" title="${SIGNAME[s]}: ${z.toFixed(2)} SD"><span class="sg ${c}">${c === "up" ? "▲" : c === "dn" ? "▼" : "·"}</span></td>`;
+};
+
+/* summary */
+(() => {
+  const byRank = T.slice().sort((a, b) => a.rank - b.rank);
+  const item = (t, sgn = 1) => `<li><b>${esc(t.t)}</b> ${fmt(t.fc.share_2026)}% → ${fmt(t.fc.share_2027)}% <span>(${fmt(t.fc.lo80)}–${fmt(t.fc.hi80)}; ${sgn > 0 ? "up" : "down"}: ${drivers(t, sgn).join(", ") || "no single strong signal"}${drivers(t, -sgn).length ? "; " + (sgn > 0 ? "down" : "up") + ": " + drivers(t, -sgn).join(", ") : ""})</span></li>`;
+  const ups = byRank.filter(t => direction(t) === "rise"), downs = byRank.filter(t => direction(t) === "fall").reverse();
+  const n = { rise: ups.length, fall: downs.length }; const unc = T.length - n.rise - n.fall;
+  document.getElementById("summary").innerHTML = `
+    <div class="panel"><h2>Gaining ground in 2027 (${n.rise} of ${T.length})</h2><ul class="list">${ups.map(t => item(t, 1)).join("")}</ul></div>
+    <div class="panel"><h2>Losing ground (${n.fall})</h2><ul class="list">${downs.map(t => item(t, -1)).join("") || "<li>none</li>"}</ul>
+      <p class="note">Almost every topic is named a little more often each year (the average topic's share rose by 0.10 to 0.22 in log-odds per year since 2021), so "gaining" and "losing" ground are measured against the average topic: the whole 80% interval of the topic's forecast change is above, or below, the average forecast change. ${unc} topics are unclear. Rank order is forecast better than size (see "Does it work?").</p></div>`;
+})();
+
+/* table */
+function renderTable() {
+  const g = document.getElementById("fgroup").value, k = document.getElementById("fsort").value, q = document.getElementById("fq").value.toLowerCase();
+  const rows = T.filter(t => inGroup(t, g) && t.t.toLowerCase().includes(q));
+  rows.sort({ rank: (a, b) => a.rank - b.rank, share: (a, b) => b.fc.share_2027 - a.fc.share_2027, name: (a, b) => a.t.localeCompare(b.t) }[k]);
+  document.querySelector("#ftable tbody").innerHTML = rows.map(t => {
+    const d = direction(t), f = t.fc;
+    return `<tr class="click" data-k="${esc(t.k)}"><td class="num l">${t.rank}</td><td class="l topic">${esc(t.t)}<span class="fam">${esc(famOf(t))}</span></td>
+      <td style="width:130px;min-width:130px">${chart(t, 130, 38, { spark: true })}</td>
+      <td class="num">${fmt(t.rob[5][0])}%</td><td class="num">${fmt(t.rob[6][0])}%</td>
+      <td class="num"><b>${fmt(f.share_2027)}%</b> <span class="iv">${fmt(f.lo80)}–${fmt(f.hi80)}</span></td>
+      <td class="l"><span class="pill ${d}">${DIRLAB[d]}</span>${mixed(t) ? '<span class="mixed">signals disagree</span>' : ""}</td>
+      ${SIG.map(s => sgCell(t, s)).join("")}</tr>`;
+  }).join("");
+}
+["fgroup", "fsort"].forEach(id => document.getElementById(id).addEventListener("change", renderTable));
+document.getElementById("fq").addEventListener("input", renderTable);
+document.querySelector("#ftable tbody").addEventListener("click", e => { const tr = e.target.closest("tr"); if (tr) show("charts", tr.dataset.k); });
+
+/* charts */
+function renderCards(hl) {
+  const g = document.getElementById("cgroup").value, log = document.getElementById("cscale").value === "log";
+  const rows = T.filter(t => inGroup(t, g) || t.k === hl).sort((a, b) => a.rank - b.rank);
+  document.getElementById("cards").innerHTML = rows.map(t => {
+    const up = drivers(t, 1), dn = drivers(t, -1);
+    const part = t.mlcv_part && t.mlcv_part !== "all" ? ` ML/CV signal uses the ${t.mlcv_part === "llm" ? "papers that also name LLMs, VLMs or reasoning" : "papers that do not name LLMs, VLMs or reasoning"}${t.set === "R" ? ` (ML/CV topic "${esc(t.mlcv_from)}")` : ""}.` : "";
+    return `<div class="card${t.k === hl ? " hl" : ""}" id="c-${encodeURIComponent(t.k)}"><h3>${esc(t.t)}</h3>
+      <div class="sub">#${t.rank} · ${fmt(t.fc.share_2026)}% → ${fmt(t.fc.share_2027)}% (${fmt(t.fc.lo80)}–${fmt(t.fc.hi80)})</div>
+      <div class="why">${up.length ? "Up: " + up.join(", ") + ". " : ""}${dn.length ? "Down: " + dn.join(", ") + "." : ""}${part}</div>
+      ${chart(t, 300, 140, { log })}</div>`;
+  }).join("");
+}
+["cgroup", "cscale"].forEach(id => document.getElementById(id).addEventListener("change", () => renderCards()));
+
+/* signals */
+(() => {
+  const what = {
+    own: "Robotics' own slope: the straight-line trend of the topic's share since 2020.",
+    level: "Room to grow: topics that are already common grow more slowly (entered with a minus sign).",
+    venue: "Early venues: the topic is further ahead at CoRL and RSS than usual, compared with the other venues.",
+    emb: "ML/CV papers about robots: the change last year in the share of the topic among robot papers at NeurIPS, ICML, ICLR, CVPR, ICCV and ECCV.",
+    diff: "Methods spreading in: the methods that already appear in the topic's papers rose last year in robotics.",
+    mlcv: "ML/CV overall: the change last year at the ML and vision venues, using the part of ML/CV (with or without LLMs) whose company of topics matches robotics best."
+  };
+  const sg = {}; D.single.forEach(r => { (sg[r.signal] ||= {})[r.target_year] = r; });
+  const ab = {}; D.ablation.forEach(r => { (ab[r.left_out] ||= {})[r.target_year] = r; });
+  const full = {}; D.ablation.forEach(r => full[r.target_year] = r.spearman_full);
+  document.querySelector("#sgtable tbody").innerHTML = SIG.map(s => `<tr><td class="l"><b>${SIGNAME[s]}</b></td><td class="l" style="min-width:18rem">${what[s]}</td>
+    <td class="num">${sg[s][2024].n_topics}</td>${[2024, 2025, 2026].map(y => `<td class="num">${sg[s][y].spearman_with_actual.toFixed(2)}</td>`).join("")}
+    ${[2024, 2025, 2026].map(y => `<td class="num">${ab[s][y].spearman_without.toFixed(2)}</td>`).join("")}</tr>`).join("") +
+    `<tr style="font-weight:600"><td class="l">Combined score</td><td class="l">Mean of the available signals, each scaled across topics; no fitted weights.</td><td class="num">${T.length}</td>${[2024, 2025, 2026].map(y => `<td class="num">${full[y].toFixed(2)}</td>`).join("")}<td></td><td></td><td></td></tr>`;
+  document.getElementById("sigprose").innerHTML = `
+    <p>A topic's share in robotics can move for several reasons, and each reason leaves a different trace a year ahead. Six of them were measured for every topic and tested one by one: does the signal, known at the end of year T−1, rank the topics by how much they then changed in year T?</p>
+    <p>The most consistent single signal is <b>methods spreading in</b> (ρ 0.48–0.56): a task or platform grows when the methods its papers already use are rising. <b>ML/CV papers about robots</b> was the best signal in 2025 but weak in the partial 2026; robotics' <b>own slope</b> improves from year to year. The <b>early venues</b> signal is weak on its own (ρ 0.05–0.17) but leaving it out lowers the combined score in every year. Leaving out any other signal lowers the score in two of the three years; "ML/CV overall" matters least, partly because only ${T.filter(t => t.z.mlcv != null).length} topics have it.</p>
+    <p class="warn">The ML/CV-robot-papers signal is used only for topics whose robotics rule was checked on those ML/CV papers (abstracts read, ≥ 80% correct in both periods): ${T.filter(t => t.emb).length} of ${T.length}. Rules such as navigation, motion planning, hardware and calibration mean other things in ML/CV text and were left out.</p>`;
+  const eb = D.emerging_bt;
+  document.getElementById("emerging").innerHTML = `<h2>New phrases: tested, not used</h2>
+    <p>Topics that do not have a name yet cannot be in the table. To catch them, the phrases (one to three words) that grew fastest in robotics and ML/CV robot papers, and that no topic rule covers, were tested the same way: did the top 30 phrases of one year keep growing in robotics the next year?</p>
+    <p>They did not. Their median change was ${eb.map(r => r.median_change_top.toFixed(2)).join(", ")} for ${eb.map(r => r.target_year).join(", ")}, against ${eb.map(r => r.median_change_random.toFixed(2)).join(", ")} for random phrases of the same frequency; most were wording fashions ("consistent gains", "framework that jointly"). Fast-growing phrases are therefore not a forecast.</p>
+    <p>The 2026 list still names a few things worth reading: simulators and benchmarks (LIBERO, SimplerEnv, NAVSIM), VGGT, "action expert", "action chunks", "dual-system", "flow policy", "spatial intelligence". Most of them sit inside VLA work, which already has a topic. None is called a topic here without reading the papers.</p>`;
+  const pick = ["libero", "simplerenv", "navsim", "vggt", "action expert", "action chunks", "dual-system", "flow policy", "spatial intelligence", "simulation-ready", "language action"];
+  document.querySelector("#emtable tbody").innerHTML = D.emerging.filter(r => pick.includes(r.gram)).map(r => `<tr><td class="l">${esc(r.gram)}</td>
+    <td class="num">${r.rob_2024}</td><td class="num">${r.rob_2025}</td><td class="num">${r.rob_2026}</td><td class="num">${r.emb_2025}</td><td class="num">${r.emb_2026}</td></tr>`).join("");
+})();
+
+/* backtest */
+(() => {
+  const names = { score: "Combined score (used)", ols: "Same signals, fitted weights", own: "Robotics' own slope only" };
+  const subs = { all: "all", R: "robotics", M: "ML / vision" };
+  const g = {}; D.backtest.forEach(r => { (g[r.model + "|" + r.topics] ||= {})[r.target_year] = r; });
+  document.querySelector("#bttable tbody").innerHTML = ["score", "ols", "own"].flatMap(m => Object.keys(subs).map(s => {
+    const r = g[m + "|" + s], c = f => [2024, 2025, 2026].map(y => `<td class="num">${f(r[y])}</td>`).join("");
+    return `<tr${m === "score" && s === "all" ? ' style="font-weight:600"' : ""}><td class="l">${s === "all" ? names[m] : ""}</td><td class="l">${subs[s]}</td>${c(x => x.spearman.toFixed(2))}${c(x => x.mae_logit.toFixed(2))}${c(x => x.top10_overlap)}</tr>`;
+  })).join("");
+  document.querySelector("#bstable tbody").innerHTML = D.bootstrap.map(r => `<tr><td class="l">${r.target_year}${r.target_year === 2026 ? " (partial)" : ""}</td><td class="num">${r.rho_score_minus_own >= 0 ? "+" : ""}${r.rho_score_minus_own.toFixed(2)}</td><td class="num">${r.lo95.toFixed(2)} to ${r.hi95.toFixed(2)}</td></tr>`).join("");
+  document.querySelector("#ovtable tbody").innerHTML = D.old_vs_new.map(r => `<tr><td class="l">${r[0]}</td><td class="num">${r[1].toFixed(2)}</td><td class="num">${r[2].toFixed(2)}</td></tr>`).join("");
+  const s = g["score|all"], o = g["own|all"];
+  document.getElementById("btprose").innerHTML = `
+    <p>Each year from 2024 on was forecast using only earlier years. Across all ${T.length} topics the combined score ranked the topics' changes with ρ = ${[2024, 2025, 2026].map(y => s[y].spearman.toFixed(2)).join(", ")} (2024, 2025, 2026 partial), against ${[2024, 2025, 2026].map(y => o[y].spearman.toFixed(2)).join(", ")} for robotics' own slope. Its errors were smaller in every year, and the advantage is clear for 2024 and 2025 but not for the partial 2026.</p>
+    <p>Fitting a weight for each signal did worse than giving all signals equal weight: with three years of history, fitted weights chase noise.</p>
+    <p>On the ML / vision topics, the first version of this page (ML/CV change only) did about as well as the combined score: better in 2024 and 2026, worse in 2025. The combined score's gain is mostly on robotics' own topics, which the first version could not forecast at all.</p>
+    <p class="warn">Errors are much larger for rare topics. Median absolute error in log-odds: 0.29 for topics under 1% of papers, 0.20 for 1–3%, 0.08 above 3%. The 2027 intervals use the errors of the topic's own size group.</p>`;
+})();
+
+/* method */
+document.getElementById("method").innerHTML = `
+  <h2>Topics and shares</h2>
+  <p>Robotics topics use the rules of <a href="https://huyicheng.github.io/robotics-topic-trends/">Robotics Topic Trends</a>; ML / vision topics use the rules of <a href="https://huyicheng.github.io/ml-cv-topic-trends/">ML &amp; CV Topic Trends</a>, kept only where at least 80% of the robotics papers they match were judged correct from their abstracts. Ten ML / vision topics duplicate a robotics topic (e.g. reinforcement learning, diffusion) and appear once, as the robotics topic. A share is the percentage of papers that name the topic in title or abstract, standardised to a fixed venue mix with a logistic model of topic on venue and year.</p>
+  <h2>Forecast</h2>
+  <p>Target: the change of the log-odds of a topic's robotics share from one year to the next. Each signal is scaled across topics (mean 0, standard deviation 1, "room to grow" with a minus sign) and the combined score is the mean of the signals a topic has. Forecast change = a + b × score, with a and b fitted on 2023–2026 (${esc(D.fit[0].replace("score calibration on 2023-2026: ", ""))}). The 2027 share adds this change to the 2026 share. Intervals: the 10th–90th and 2.5th–97.5th percentiles of the backtest errors of topics of the same size. All of this was written down before the backtest was run; the size-dependent interval was added after seeing the errors and changes no forecast.</p>
+  <h2>Limits</h2>
+  <ul>
+    <li>Three target years, one of them partial; each topic has five or six yearly changes.</li>
+    <li>2026 lacks IROS and CoRL in robotics and NeurIPS in ML/CV; the 2027 forecast starts from shares that rely on the venue model, and the early-venue signal for 2027 rests on RSS alone.</li>
+    <li>Keyword rules count papers that name a topic, also in passing, and miss papers that use other words. Topics without a name yet are not forecast; the test of fast-growing phrases found no usable signal.</li>
+    <li>The data cannot see hardware prices, company and funding activity, or the release of a dataset or model, which can move a topic within a year.</li>
+    <li>The signals show what came before a rise in the past; they do not say why a topic rises.</li>
+  </ul>`;
+
+const views = ["outlook", "charts", "signals", "backtest", "method"];
+function show(v, hl) {
+  views.forEach(x => { document.getElementById("view-" + x).classList.toggle("hidden", x !== v); document.getElementById("tab-" + x).setAttribute("aria-selected", x === v); });
+  if (v === "charts") { renderCards(hl); if (hl) document.getElementById("c-" + encodeURIComponent(hl))?.scrollIntoView({ block: "center" }); }
+  try { localStorage.setItem("rf2-tab", v); } catch (e) {}
+}
+views.forEach(v => document.getElementById("tab-" + v).addEventListener("click", () => show(v)));
+renderTable();
+let start = "outlook"; const h = location.hash.slice(1);
+if (views.includes(h)) start = h; else { try { const s = localStorage.getItem("rf2-tab"); if (views.includes(s)) start = s; } catch (e) {} }
+show(start);
+})();
+</script>

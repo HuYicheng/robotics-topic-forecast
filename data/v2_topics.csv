@@ -1,0 +1,102 @@
+topic,set,rule,key
+VLA / robot foundation models,R,VLA / robot foundation models,R: VLA / robot foundation models
+LLM / VLM,R,LLM / VLM,R: LLM / VLM
+Language grounding / open-vocabulary,R,Language grounding / open-vocabulary,R: Language grounding / open-vocabulary
+Diffusion / flow generative models,R,Diffusion / flow generative models,R: Diffusion / flow generative models
+Other generative models,R,Other generative models,R: Other generative models
+Imitation learning / LfD,R,Imitation learning / LfD,R: Imitation learning / LfD
+Reinforcement learning,R,Reinforcement learning,R: Reinforcement learning
+Sim-to-real,R,Sim-to-real,R: Sim-to-real
+World models / video prediction,R,World models / video prediction,R: World models / video prediction
+Learning from human video / human-to-robot transfer,R,Learning from human video / human-to-robot transfer,R: Learning from human video / human-to-robot transfer
+Teleoperation (incl. data-collection interfaces),R,Teleoperation (incl. data-collection interfaces),R: Teleoperation (incl. data-collection interfaces)
+Datasets / benchmarks,R,Datasets / benchmarks,R: Datasets / benchmarks
+Reasoning / chain-of-thought,R,Reasoning / chain-of-thought,R: Reasoning / chain-of-thought
+Cross-embodiment,R,Cross-embodiment,R: Cross-embodiment
+3D Gaussian splatting,R,3D Gaussian splatting,R: 3D Gaussian splatting
+NeRF / neural implicit fields,R,NeRF / neural implicit fields,R: NeRF / neural implicit fields
+Mamba / state-space sequence models,R,Mamba / state-space sequence models,R: Mamba / state-space sequence models
+Self-supervised / pretraining / representation,R,Self-supervised / pretraining / representation,R: Self-supervised / pretraining / representation
+Graph neural networks,R,Graph neural networks,R: Graph neural networks
+Humanoid robots,R,Humanoid robots,R: Humanoid robots
+Legged robots / locomotion,R,Legged robots / locomotion,R: Legged robots / locomotion
+Aerial robots / UAV,R,Aerial robots / UAV,R: Aerial robots / UAV
+Autonomous driving,R,Autonomous driving,R: Autonomous driving
+Underwater / marine,R,Underwater / marine,R: Underwater / marine
+Space robotics,R,Space robotics,R: Space robotics
+Mobile manipulation,R,Mobile manipulation,R: Mobile manipulation
+Whole-body control / loco-manipulation,R,Whole-body control / loco-manipulation,R: Whole-body control / loco-manipulation
+Soft robots,R,Soft robots,R: Soft robots
+Micro / bio-inspired robots,R,Micro / bio-inspired robots,R: Micro / bio-inspired robots
+Multi-robot / multi-agent / swarms,R,Multi-robot / multi-agent / swarms,R: Multi-robot / multi-agent / swarms
+Wearable / exoskeleton / prosthesis / rehab,R,Wearable / exoskeleton / prosthesis / rehab,R: Wearable / exoskeleton / prosthesis / rehab
+Surgical / medical,R,Surgical / medical,R: Surgical / medical
+Agriculture / field,R,Agriculture / field,R: Agriculture / field
+Industrial / logistics / construction,R,Industrial / logistics / construction,R: Industrial / logistics / construction
+Manipulation (any),R,Manipulation (any),R: Manipulation (any)
+Grasping,R,Grasping,R: Grasping
+Dexterous / in-hand,R,Dexterous / in-hand,R: Dexterous / in-hand
+Bimanual,R,Bimanual,R: Bimanual
+Deformable objects,R,Deformable objects,R: Deformable objects
+Contact-rich / assembly,R,Contact-rich / assembly,R: Contact-rich / assembly
+Articulated objects / affordance,R,Articulated objects / affordance,R: Articulated objects / affordance
+Tactile sensing,R,Tactile sensing,R: Tactile sensing
+Haptics,R,Haptics,R: Haptics
+Navigation,R,Navigation,R: Navigation
+Long-horizon / task planning / TAMP,R,Long-horizon / task planning / TAMP,R: Long-horizon / task planning / TAMP
+Human-robot interaction,R,Human-robot interaction,R: Human-robot interaction
+Perception: detection / segmentation / tracking / pose,R,Perception: detection / segmentation / tracking / pose,R: Perception: detection / segmentation / tracking / pose
+3D perception / LiDAR / point clouds,R,3D perception / LiDAR / point clouds,R: 3D perception / LiDAR / point clouds
+SLAM / localization / state estimation,R,SLAM / localization / state estimation,R: SLAM / localization / state estimation
+Radar / 4D radar,R,Radar / 4D radar,R: Radar / 4D radar
+Event cameras / neuromorphic,R,Event cameras / neuromorphic,R: Event cameras / neuromorphic
+Prediction / forecasting,R,Prediction / forecasting,R: Prediction / forecasting
+Motion / path planning,R,Motion / path planning,R: Motion / path planning
+MPC / optimal control / trajectory optimization,R,MPC / optimal control / trajectory optimization,R: MPC / optimal control / trajectory optimization
+Safety / verification,R,Safety / verification,R: Safety / verification
+Uncertainty / probabilistic,R,Uncertainty / probabilistic,R: Uncertainty / probabilistic
+Force / impedance control,R,Force / impedance control,R: Force / impedance control
+Hardware: mechanisms / actuators / design,R,Hardware: mechanisms / actuators / design,R: Hardware: mechanisms / actuators / design
+Calibration / registration,R,Calibration / registration,R: Calibration / registration
+Bayesian & probabilistic inference,M,Bayesian & probabilistic inference,M: Bayesian & probabilistic inference
+Image generation / editing,M,Image generation / editing,M: Image generation / editing
+3D reconstruction / SfM / SLAM,M,3D reconstruction / SfM / SLAM,M: 3D reconstruction / SfM / SLAM
+Face analysis,M,Face analysis,M: Face analysis
+Time series / forecasting,M,Time series / forecasting,M: Time series / forecasting
+Privacy,M,Privacy,M: Privacy
+VAEs / vector-quantized models,M,VAEs / vector-quantized models,M: VAEs / vector-quantized models
+Fairness / bias,M,Fairness / bias,M: Fairness / bias
+Synthetic data / data augmentation,M,Synthetic data / data augmentation,M: Synthetic data / data augmentation
+Alignment / RLHF / preference optimization,M,Alignment / RLHF / preference optimization,M: Alignment / RLHF / preference optimization
+Clustering / unsupervised learning,M,Clustering / unsupervised learning,M: Clustering / unsupervised learning
+OOD / anomaly detection,M,OOD / anomaly detection,M: OOD / anomaly detection
+Combinatorial optimization / scheduling,M,Combinatorial optimization / scheduling,M: Combinatorial optimization / scheduling
+Spiking / neuromorphic networks,M,Spiking / neuromorphic networks,M: Spiking / neuromorphic networks
+Mixture of experts,M,Mixture of experts,M: Mixture of experts
+Federated learning,M,Federated learning,M: Federated learning
+Video generation / editing,M,Video generation / editing,M: Video generation / editing
+Autoregressive models / tokenizers,M,Autoregressive models / tokenizers,M: Autoregressive models / tokenizers
+Recurrent networks / LSTMs,M,Recurrent networks / LSTMs,M: Recurrent networks / LSTMs
+Healthcare / clinical,M,Healthcare / clinical,M: Healthcare / clinical
+Offline RL / imitation learning,M,Offline RL / imitation learning,M: Offline RL / imitation learning
+Object detection,M,Object detection,M: Object detection
+Novel view synthesis / neural rendering,M,Novel view synthesis / neural rendering,M: Novel view synthesis / neural rendering
+Meta-learning,M,Meta-learning,M: Meta-learning
+Kernel methods / Gaussian processes,M,Kernel methods / Gaussian processes,M: Kernel methods / Gaussian processes
+Hallucination / factuality,M,Hallucination / factuality,M: Hallucination / factuality
+Foundation models,M,Foundation models,M: Foundation models
+GANs,M,GANs,M: GANs
+Image retrieval / metric learning,M,Image retrieval / metric learning,M: Image retrieval / metric learning
+In-context learning,M,In-context learning,M: In-context learning
+Fine-tuning / PEFT / prompting,M,Fine-tuning / PEFT / prompting,M: Fine-tuning / PEFT / prompting
+Flow matching / normalizing flows,M,Flow matching / normalizing flows,M: Flow matching / normalizing flows
+Bandits / online learning,M,Bandits / online learning,M: Bandits / online learning
+Convolutional networks,M,Convolutional networks,M: Convolutional networks
+Depth / stereo / optical flow / matching,M,Depth / stereo / optical flow / matching,M: Depth / stereo / optical flow / matching
+Optimal transport,M,Optimal transport,M: Optimal transport
+Segmentation,M,Segmentation,M: Segmentation
+Retrieval-augmented generation,M,Retrieval-augmented generation,M: Retrieval-augmented generation
+Semi- / weakly supervised & noisy labels,M,Semi- / weakly supervised & noisy labels,M: Semi- / weakly supervised & noisy labels
+Statistical estimation / high-dimensional statistics,M,Statistical estimation / high-dimensional statistics,M: Statistical estimation / high-dimensional statistics
+Transformers / attention,M,Transformers / attention,M: Transformers / attention
+Vision-language / multimodal LLMs,M,Vision-language / multimodal LLMs,M: Vision-language / multimodal LLMs

@@ -1,0 +1,708 @@
+key,year,share,k,n
+R: VLA / robot foundation models,2020,3.4220353241080107e-10,0,177
+R: VLA / robot foundation models,2021,2.9394787876460945e-10,0,237
+R: VLA / robot foundation models,2022,0.38582436797039227,1,286
+R: VLA / robot foundation models,2023,0.25232548163644186,1,381
+R: VLA / robot foundation models,2024,3.5609609492445613,18,540
+R: VLA / robot foundation models,2025,7.780186023538252,71,879
+R: VLA / robot foundation models,2026,31.471039623056434,280,1111
+R: LLM / VLM,2020,8.584413253483132e-10,0,177
+R: LLM / VLM,2021,0.43438706458988835,1,237
+R: LLM / VLM,2022,2.1774768417246153,6,286
+R: LLM / VLM,2023,9.40225511236593,36,381
+R: LLM / VLM,2024,21.000820411891514,111,540
+R: LLM / VLM,2025,29.459268323598593,262,879
+R: LLM / VLM,2026,32.95625817922313,323,1111
+R: Language grounding / open-vocabulary,2020,4.562411374644764,8,177
+R: Language grounding / open-vocabulary,2021,5.227426085643115,13,237
+R: Language grounding / open-vocabulary,2022,7.743871221314294,22,286
+R: Language grounding / open-vocabulary,2023,10.320069345725585,40,381
+R: Language grounding / open-vocabulary,2024,14.306224281394567,75,540
+R: Language grounding / open-vocabulary,2025,14.081339489729409,126,879
+R: Language grounding / open-vocabulary,2026,11.105125422019855,120,1111
+R: Diffusion / flow generative models,2020,3.302454303286872e-10,0,177
+R: Diffusion / flow generative models,2021,2.8809198220592527e-10,0,237
+R: Diffusion / flow generative models,2022,0.7599888625139186,2,286
+R: Diffusion / flow generative models,2023,6.8477758011203855,27,381
+R: Diffusion / flow generative models,2024,12.36449112404002,63,540
+R: Diffusion / flow generative models,2025,13.63988060275782,124,879
+R: Diffusion / flow generative models,2026,19.97361210441041,182,1111
+R: Other generative models,2020,8.60513246001336,15,177
+R: Other generative models,2021,7.814453040496271,18,237
+R: Other generative models,2022,5.594323538161161,16,286
+R: Other generative models,2023,8.194565388665271,31,381
+R: Other generative models,2024,11.216556452713041,61,540
+R: Other generative models,2025,10.741007751076955,94,879
+R: Other generative models,2026,15.303581074317874,160,1111
+R: Imitation learning / LfD,2020,11.81626507086549,19,177
+R: Imitation learning / LfD,2021,9.922044806511238,22,237
+R: Imitation learning / LfD,2022,14.48750732479084,39,286
+R: Imitation learning / LfD,2023,14.354455954383813,54,381
+R: Imitation learning / LfD,2024,15.289577847789285,83,540
+R: Imitation learning / LfD,2025,16.88987984279037,148,879
+R: Imitation learning / LfD,2026,16.758907316744207,181,1111
+R: Reinforcement learning,2020,36.84709031033738,60,177
+R: Reinforcement learning,2021,43.31312203278994,92,237
+R: Reinforcement learning,2022,41.13890069047363,112,286
+R: Reinforcement learning,2023,36.65387456332002,136,381
+R: Reinforcement learning,2024,29.320298173578752,164,540
+R: Reinforcement learning,2025,21.649296600103124,186,879
+R: Reinforcement learning,2026,21.856017521050315,238,1111
+R: Sim-to-real,2020,2.169996729578463,4,177
+R: Sim-to-real,2021,2.643397538767173,6,237
+R: Sim-to-real,2022,3.343173095330236,10,286
+R: Sim-to-real,2023,2.453037663613963,9,381
+R: Sim-to-real,2024,3.176600877838983,18,540
+R: Sim-to-real,2025,3.0504398941674435,26,879
+R: Sim-to-real,2026,5.405148796471564,66,1111
+R: World models / video prediction,2020,1.0141867377397216,2,177
+R: World models / video prediction,2021,3.1520276173088906,7,237
+R: World models / video prediction,2022,1.6057495567943034,5,286
+R: World models / video prediction,2023,4.37432630468952,16,381
+R: World models / video prediction,2024,4.683614921941183,27,540
+R: World models / video prediction,2025,8.527274753074078,72,879
+R: World models / video prediction,2026,11.574672114541245,137,1111
+R: Learning from human video / human-to-robot transfer,2020,0.5160307935745692,1,177
+R: Learning from human video / human-to-robot transfer,2021,0.8193440591380438,2,237
+R: Learning from human video / human-to-robot transfer,2022,0.6615398644680186,2,286
+R: Learning from human video / human-to-robot transfer,2023,2.642929825901673,10,381
+R: Learning from human video / human-to-robot transfer,2024,2.7451040721684423,15,540
+R: Learning from human video / human-to-robot transfer,2025,2.750485309600593,24,879
+R: Learning from human video / human-to-robot transfer,2026,2.391055944200465,30,1111
+R: Teleoperation (incl. data-collection interfaces),2020,3.248012652605748e-10,0,177
+R: Teleoperation (incl. data-collection interfaces),2021,3.271034171677649e-10,0,237
+R: Teleoperation (incl. data-collection interfaces),2022,0.7127294916184271,2,286
+R: Teleoperation (incl. data-collection interfaces),2023,0.5344489049874753,2,381
+R: Teleoperation (incl. data-collection interfaces),2024,0.18553849606181821,1,540
+R: Teleoperation (incl. data-collection interfaces),2025,0.9091320283497326,8,879
+R: Teleoperation (incl. data-collection interfaces),2026,4.140438391288551,33,1111
+R: Datasets / benchmarks,2020,8.108200474956906,15,177
+R: Datasets / benchmarks,2021,11.253272840435455,27,237
+R: Datasets / benchmarks,2022,9.329375352932693,28,286
+R: Datasets / benchmarks,2023,11.149402754491543,42,381
+R: Datasets / benchmarks,2024,8.871827750213981,48,540
+R: Datasets / benchmarks,2025,10.477651887432481,92,879
+R: Datasets / benchmarks,2026,7.96762424772353,88,1111
+R: Reasoning / chain-of-thought,2020,5.7048215387995915,10,177
+R: Reasoning / chain-of-thought,2021,1.700836754530051,4,237
+R: Reasoning / chain-of-thought,2022,2.4199506755436713,7,286
+R: Reasoning / chain-of-thought,2023,5.228911966902778,20,381
+R: Reasoning / chain-of-thought,2024,7.112502974498584,38,540
+R: Reasoning / chain-of-thought,2025,14.247633821618773,126,879
+R: Reasoning / chain-of-thought,2026,24.35046596091576,237,1111
+R: Cross-embodiment,2020,3.4305757791174493e-10,0,177
+R: Cross-embodiment,2021,2.736131018746272e-10,0,237
+R: Cross-embodiment,2022,0.40432502011446614,1,286
+R: Cross-embodiment,2023,0.4983448171626381,2,381
+R: Cross-embodiment,2024,1.0112246103070255,5,540
+R: Cross-embodiment,2025,1.94767084813353,18,879
+R: Cross-embodiment,2026,3.883188646496541,42,1111
+R: 3D Gaussian splatting,2020,1.4908685762738187e-10,0,177
+R: 3D Gaussian splatting,2021,8.834853520928847e-11,0,237
+R: 3D Gaussian splatting,2022,1.456084019030576e-10,0,286
+R: 3D Gaussian splatting,2023,9.733230792474946e-11,0,381
+R: 3D Gaussian splatting,2024,1.8259007416766806,7,540
+R: 3D Gaussian splatting,2025,4.481329133829159,46,879
+R: 3D Gaussian splatting,2026,5.724898072549575,43,1111
+R: NeRF / neural implicit fields,2020,7.736540293226669e-10,0,177
+R: NeRF / neural implicit fields,2021,1.50140282186297,4,237
+R: NeRF / neural implicit fields,2022,2.2906279914012737,7,286
+R: NeRF / neural implicit fields,2023,3.6293615619510584,14,381
+R: NeRF / neural implicit fields,2024,0.9538850970518881,5,540
+R: NeRF / neural implicit fields,2025,2.458732525031175,22,879
+R: NeRF / neural implicit fields,2026,1.15517319148623,14,1111
+R: Mamba / state-space sequence models,2020,2.8175623836092804e-10,0,177
+R: Mamba / state-space sequence models,2021,1.8797063761282076e-10,0,237
+R: Mamba / state-space sequence models,2022,3.1425200823023145e-10,0,286
+R: Mamba / state-space sequence models,2023,2.0093154687597212e-10,0,381
+R: Mamba / state-space sequence models,2024,1.119020183518416,4,540
+R: Mamba / state-space sequence models,2025,0.3761729386252666,4,879
+R: Mamba / state-space sequence models,2026,0.3451784188518681,3,1111
+R: Self-supervised / pretraining / representation,2020,16.264498875054983,28,177
+R: Self-supervised / pretraining / representation,2021,20.429306020812387,49,237
+R: Self-supervised / pretraining / representation,2022,17.876065530699975,50,286
+R: Self-supervised / pretraining / representation,2023,23.466509681133303,90,381
+R: Self-supervised / pretraining / representation,2024,22.964216948641216,122,540
+R: Self-supervised / pretraining / representation,2025,22.6408326100427,201,879
+R: Self-supervised / pretraining / representation,2026,21.55064937639307,239,1111
+R: Graph neural networks,2020,3.98968944642986,6,177
+R: Graph neural networks,2021,2.1851908215490057,5,237
+R: Graph neural networks,2022,2.670973341810577,7,286
+R: Graph neural networks,2023,1.5584619165321274,6,381
+R: Graph neural networks,2024,0.9606975810746831,5,540
+R: Graph neural networks,2025,0.7790419585046261,7,879
+R: Graph neural networks,2026,0.3507984810976115,3,1111
+R: Humanoid robots,2020,1.2109977975475938,2,177
+R: Humanoid robots,2021,1.3084492688523575,3,237
+R: Humanoid robots,2022,2.1375446366977577,6,286
+R: Humanoid robots,2023,0.7917630136285448,3,381
+R: Humanoid robots,2024,2.4721448214421144,13,540
+R: Humanoid robots,2025,2.7992185233424407,25,879
+R: Humanoid robots,2026,4.959295164033993,45,1111
+R: Legged robots / locomotion,2020,6.609641242140321,10,177
+R: Legged robots / locomotion,2021,11.868283708263244,25,237
+R: Legged robots / locomotion,2022,12.4846959233688,32,286
+R: Legged robots / locomotion,2023,10.132371546351893,38,381
+R: Legged robots / locomotion,2024,9.981291357841197,55,540
+R: Legged robots / locomotion,2025,5.649110977284774,49,879
+R: Legged robots / locomotion,2026,5.828666589026285,62,1111
+R: Aerial robots / UAV,2020,1.5690986032007626,3,177
+R: Aerial robots / UAV,2021,1.7721451084553177,4,237
+R: Aerial robots / UAV,2022,2.2367854576483372,7,286
+R: Aerial robots / UAV,2023,2.4500226254518322,9,381
+R: Aerial robots / UAV,2024,1.7804731685121782,10,540
+R: Aerial robots / UAV,2025,1.8661595798290607,16,879
+R: Aerial robots / UAV,2026,1.6725560025205917,17,1111
+R: Autonomous driving,2020,12.742861022563554,25,177
+R: Autonomous driving,2021,12.342976876987503,31,237
+R: Autonomous driving,2022,11.9498585561609,37,286
+R: Autonomous driving,2023,10.766961980699197,41,381
+R: Autonomous driving,2024,9.521820545745173,52,540
+R: Autonomous driving,2025,10.99479279878389,96,879
+R: Autonomous driving,2026,8.988979387677826,108,1111
+R: Underwater / marine,2020,0.22373991929664658,1,177
+R: Underwater / marine,2021,9.418063087995316e-10,0,237
+R: Underwater / marine,2022,0.1644870629950727,1,286
+R: Underwater / marine,2023,0.42810853827797224,1,381
+R: Underwater / marine,2024,0.10762893293951291,1,540
+R: Underwater / marine,2025,0.6029689975367348,3,879
+R: Underwater / marine,2026,0.03831956484030517,1,1111
+R: Space robotics,2020,8.141956774958044e-11,0,177
+R: Space robotics,2021,8.132420874255654e-11,0,237
+R: Space robotics,2022,0.37666156356673247,1,286
+R: Space robotics,2023,6.430612765438381e-11,0,381
+R: Space robotics,2024,0.19505688113260966,1,540
+R: Space robotics,2025,0.22067041097833212,2,879
+R: Space robotics,2026,32.828143532507035,1,1111
+R: Mobile manipulation,2020,9.51761400792986e-10,0,177
+R: Mobile manipulation,2021,0.4164497900479322,1,237
+R: Mobile manipulation,2022,1.538180539587018,4,286
+R: Mobile manipulation,2023,1.0087592231649314,4,381
+R: Mobile manipulation,2024,1.0229899089608392,5,540
+R: Mobile manipulation,2025,0.7524020048261263,7,879
+R: Mobile manipulation,2026,1.8455538494435237,13,1111
+R: Whole-body control / loco-manipulation,2020,0.5573317848489479,1,177
+R: Whole-body control / loco-manipulation,2021,8.516323383920017e-10,0,237
+R: Whole-body control / loco-manipulation,2022,0.3300172567834661,1,286
+R: Whole-body control / loco-manipulation,2023,0.5398645992023745,2,381
+R: Whole-body control / loco-manipulation,2024,0.7235350516344687,4,540
+R: Whole-body control / loco-manipulation,2025,0.8081647199874484,7,879
+R: Whole-body control / loco-manipulation,2026,1.992495583321653,18,1111
+R: Soft robots,2020,0.7009053025843444,1,177
+R: Soft robots,2021,2.054052616416295,4,237
+R: Soft robots,2022,1.1950995097816886,3,286
+R: Soft robots,2023,1.385029228299349,5,381
+R: Soft robots,2024,0.5374349200226897,3,540
+R: Soft robots,2025,0.9293234571216906,8,879
+R: Soft robots,2026,0.2687488665331259,3,1111
+R: Micro / bio-inspired robots,2020,2.6701613602118504,4,177
+R: Micro / bio-inspired robots,2021,0.874784905884462,2,237
+R: Micro / bio-inspired robots,2022,1.881549446779927,5,286
+R: Micro / bio-inspired robots,2023,1.3015313402724507,5,381
+R: Micro / bio-inspired robots,2024,0.7991171152617321,4,540
+R: Micro / bio-inspired robots,2025,1.1977863726060551,11,879
+R: Micro / bio-inspired robots,2026,1.2386036348653409,9,1111
+R: Multi-robot / multi-agent / swarms,2020,5.131168215765222,9,177
+R: Multi-robot / multi-agent / swarms,2021,2.8297965450557006,6,237
+R: Multi-robot / multi-agent / swarms,2022,2.771513653031411,8,286
+R: Multi-robot / multi-agent / swarms,2023,1.9197065568195504,7,381
+R: Multi-robot / multi-agent / swarms,2024,2.289162668401376,13,540
+R: Multi-robot / multi-agent / swarms,2025,5.637386034008945,48,879
+R: Multi-robot / multi-agent / swarms,2026,2.4240720588120537,27,1111
+R: Wearable / exoskeleton / prosthesis / rehab,2020,1.2854253699361302,2,177
+R: Wearable / exoskeleton / prosthesis / rehab,2021,0.39158570775810797,1,237
+R: Wearable / exoskeleton / prosthesis / rehab,2022,3.0132923637091205,8,286
+R: Wearable / exoskeleton / prosthesis / rehab,2023,1.2302963234751485,5,381
+R: Wearable / exoskeleton / prosthesis / rehab,2024,1.6872951180848927,8,540
+R: Wearable / exoskeleton / prosthesis / rehab,2025,1.0578234024086108,10,879
+R: Wearable / exoskeleton / prosthesis / rehab,2026,1.6729763340426111,11,1111
+R: Surgical / medical,2020,3.9323496663394297,7,177
+R: Surgical / medical,2021,1.8911694468627167,4,237
+R: Surgical / medical,2022,1.0133737232441966,3,286
+R: Surgical / medical,2023,1.9028749733712629,7,381
+R: Surgical / medical,2024,2.0825541459123955,12,540
+R: Surgical / medical,2025,1.3048068283721879,11,879
+R: Surgical / medical,2026,1.1629051458320365,11,1111
+R: Agriculture / field,2020,1.385564073629894e-10,0,177
+R: Agriculture / field,2021,2.3039372302987304e-10,0,237
+R: Agriculture / field,2022,0.5080246589967232,2,286
+R: Agriculture / field,2023,0.2893815449951888,1,381
+R: Agriculture / field,2024,1.633922762328653e-10,0,540
+R: Agriculture / field,2025,0.4176074633183242,3,879
+R: Agriculture / field,2026,0.23063063392299224,5,1111
+R: Industrial / logistics / construction,2020,1.017562377961954,2,177
+R: Industrial / logistics / construction,2021,0.4147948519602418,1,237
+R: Industrial / logistics / construction,2022,0.6622321150128969,2,286
+R: Industrial / logistics / construction,2023,1.8602752255327395,7,381
+R: Industrial / logistics / construction,2024,0.5286870938116197,3,540
+R: Industrial / logistics / construction,2025,1.5260497385014329,13,879
+R: Industrial / logistics / construction,2026,0.4339777620934888,6,1111
+R: Manipulation (any),2020,13.201847031999309,22,177
+R: Manipulation (any),2021,21.247831989279515,48,237
+R: Manipulation (any),2022,23.193025698465018,64,286
+R: Manipulation (any),2023,24.130923335566692,91,381
+R: Manipulation (any),2024,24.303812050690446,132,540
+R: Manipulation (any),2025,30.472224997271276,267,879
+R: Manipulation (any),2026,36.9457997724526,404,1111
+R: Grasping,2020,4.556112282624427,9,177
+R: Grasping,2021,4.041652294318461,11,237
+R: Grasping,2022,2.9440074193368164,9,286
+R: Grasping,2023,3.5563061252973176,14,381
+R: Grasping,2024,5.976150546394961,31,540
+R: Grasping,2025,3.8843342695038294,35,879
+R: Grasping,2026,3.3269309095715833,41,1111
+R: Dexterous / in-hand,2020,2.3106418176101067,4,177
+R: Dexterous / in-hand,2021,2.2171749096151108,5,237
+R: Dexterous / in-hand,2022,4.176077429214403,12,286
+R: Dexterous / in-hand,2023,3.7833571071145293,14,381
+R: Dexterous / in-hand,2024,4.0017296132390525,22,540
+R: Dexterous / in-hand,2025,4.831454693379706,42,879
+R: Dexterous / in-hand,2026,5.234769813286552,59,1111
+R: Bimanual,2020,1.288138861488747,2,177
+R: Bimanual,2021,7.387142229715798e-10,0,237
+R: Bimanual,2022,1.1967902249429712,3,286
+R: Bimanual,2023,0.25108258907208936,1,381
+R: Bimanual,2024,0.5906247707410326,3,540
+R: Bimanual,2025,2.085595195110936,19,879
+R: Bimanual,2026,2.0405602126554703,25,1111
+R: Deformable objects,2020,0.6403926818335679,1,177
+R: Deformable objects,2021,1.221373717918752,3,237
+R: Deformable objects,2022,0.7643143289733948,2,286
+R: Deformable objects,2023,2.6003339019741625,10,381
+R: Deformable objects,2024,1.1716489723312238,6,540
+R: Deformable objects,2025,1.1026502435861631,10,879
+R: Deformable objects,2026,0.9978376662815452,12,1111
+R: Contact-rich / assembly,2020,3.687580032936708,7,177
+R: Contact-rich / assembly,2021,2.5381549396367347,6,237
+R: Contact-rich / assembly,2022,2.6708131223167153,8,286
+R: Contact-rich / assembly,2023,1.6016692103113925,6,381
+R: Contact-rich / assembly,2024,2.522214452226946,14,540
+R: Contact-rich / assembly,2025,3.240417260671268,28,879
+R: Contact-rich / assembly,2026,3.465488630433634,43,1111
+R: Articulated objects / affordance,2020,3.3756022861794,5,177
+R: Articulated objects / affordance,2021,1.3932581869717597,4,237
+R: Articulated objects / affordance,2022,3.2958294940883044,8,286
+R: Articulated objects / affordance,2023,3.7814170916267758,16,381
+R: Articulated objects / affordance,2024,3.8390345239631833,17,540
+R: Articulated objects / affordance,2025,4.5125845980231,44,879
+R: Articulated objects / affordance,2026,4.375243081808684,41,1111
+R: Tactile sensing,2020,1.079992004773771,2,177
+R: Tactile sensing,2021,0.9046440516120734,2,237
+R: Tactile sensing,2022,0.9914185038043758,3,286
+R: Tactile sensing,2023,0.5502435165096363,2,381
+R: Tactile sensing,2024,1.2293774232612755,7,540
+R: Tactile sensing,2025,1.4123586330446334,12,879
+R: Tactile sensing,2026,1.5428154770937395,18,1111
+R: Haptics,2020,1.2414862203301118,1,177
+R: Haptics,2021,1.1543947220290737e-10,0,237
+R: Haptics,2022,1.559249597107693e-10,0,286
+R: Haptics,2023,1.220984355724088e-10,0,381
+R: Haptics,2024,1.5592495971076046e-10,0,540
+R: Haptics,2025,0.18080736896804528,2,879
+R: Haptics,2026,1.2414862203301118,0,1111
+R: Navigation,2020,19.40092593538206,35,177
+R: Navigation,2021,27.539779928527718,67,237
+R: Navigation,2022,22.121388586167537,64,286
+R: Navigation,2023,20.84148725612845,80,381
+R: Navigation,2024,16.37406603889972,87,540
+R: Navigation,2025,13.286812231883937,118,879
+R: Navigation,2026,14.728418945729452,164,1111
+R: Long-horizon / task planning / TAMP,2020,4.0916991322374825,7,177
+R: Long-horizon / task planning / TAMP,2021,2.843742942838793,6,237
+R: Long-horizon / task planning / TAMP,2022,3.1302231507851803,9,286
+R: Long-horizon / task planning / TAMP,2023,5.7319085530033504,21,381
+R: Long-horizon / task planning / TAMP,2024,5.874108023301675,33,540
+R: Long-horizon / task planning / TAMP,2025,10.732373904778845,92,879
+R: Long-horizon / task planning / TAMP,2026,16.33413707572973,166,1111
+R: Human-robot interaction,2020,4.348468677492022,8,177
+R: Human-robot interaction,2021,5.721118348887981,13,237
+R: Human-robot interaction,2022,7.062005692879358,21,286
+R: Human-robot interaction,2023,6.228056228908885,23,381
+R: Human-robot interaction,2024,4.806635388295611,27,540
+R: Human-robot interaction,2025,4.899136340602162,42,879
+R: Human-robot interaction,2026,3.6220594904241503,43,1111
+R: Perception: detection / segmentation / tracking / pose,2020,13.728743863482325,29,177
+R: Perception: detection / segmentation / tracking / pose,2021,16.792929405748268,43,237
+R: Perception: detection / segmentation / tracking / pose,2022,15.575539404517059,51,286
+R: Perception: detection / segmentation / tracking / pose,2023,15.896949040434302,60,381
+R: Perception: detection / segmentation / tracking / pose,2024,16.15403289607846,89,540
+R: Perception: detection / segmentation / tracking / pose,2025,14.185853367768198,123,879
+R: Perception: detection / segmentation / tracking / pose,2026,9.894030821389741,125,1111
+R: 3D perception / LiDAR / point clouds,2020,15.502791756414187,32,177
+R: 3D perception / LiDAR / point clouds,2021,17.203839180444408,45,237
+R: 3D perception / LiDAR / point clouds,2022,14.895601175642842,48,286
+R: 3D perception / LiDAR / point clouds,2023,20.647587772128468,79,381
+R: 3D perception / LiDAR / point clouds,2024,18.57416289103099,100,540
+R: 3D perception / LiDAR / point clouds,2025,21.561211144078783,190,879
+R: 3D perception / LiDAR / point clouds,2026,15.98833403160971,195,1111
+R: SLAM / localization / state estimation,2020,5.488491576456431,12,177
+R: SLAM / localization / state estimation,2021,6.845786645447682,18,237
+R: SLAM / localization / state estimation,2022,4.4993051113760085,15,286
+R: SLAM / localization / state estimation,2023,7.683797031023579,29,381
+R: SLAM / localization / state estimation,2024,5.729251513931151,32,540
+R: SLAM / localization / state estimation,2025,3.258904669261157,28,879
+R: SLAM / localization / state estimation,2026,2.455666759252464,35,1111
+R: Radar / 4D radar,2020,1.0064890836031484e-09,0,177
+R: Radar / 4D radar,2021,0.9246026289084478,2,237
+R: Radar / 4D radar,2022,0.456093768541758,2,286
+R: Radar / 4D radar,2023,0.6309434122140679,2,381
+R: Radar / 4D radar,2024,0.5816041628175072,4,540
+R: Radar / 4D radar,2025,0.6834932539217393,5,879
+R: Radar / 4D radar,2026,0.19680297868296953,3,1111
+R: Event cameras / neuromorphic,2020,0.817943341842655,2,177
+R: Event cameras / neuromorphic,2021,0.9758633174656336,2,237
+R: Event cameras / neuromorphic,2022,0.5250609378449733,2,286
+R: Event cameras / neuromorphic,2023,0.30304079908701026,1,381
+R: Event cameras / neuromorphic,2024,0.4528503849032665,3,540
+R: Event cameras / neuromorphic,2025,1.0566955779414224,8,879
+R: Event cameras / neuromorphic,2026,0.14096616569312412,2,1111
+R: Prediction / forecasting,2020,3.0742094463976395,6,177
+R: Prediction / forecasting,2021,3.9127331492016912,10,237
+R: Prediction / forecasting,2022,4.565032558560549,14,286
+R: Prediction / forecasting,2023,2.3479487463805038,9,381
+R: Prediction / forecasting,2024,2.9847937590728337,16,540
+R: Prediction / forecasting,2025,2.831416761953349,25,879
+R: Prediction / forecasting,2026,2.4805390142729844,30,1111
+R: Motion / path planning,2020,5.102476858520777,9,177
+R: Motion / path planning,2021,3.5453051653267322,8,237
+R: Motion / path planning,2022,4.573420145032624,13,286
+R: Motion / path planning,2023,7.46465440835502,28,381
+R: Motion / path planning,2024,5.800485691348175,32,540
+R: Motion / path planning,2025,7.147035133973266,62,879
+R: Motion / path planning,2026,7.869175762758351,90,1111
+R: MPC / optimal control / trajectory optimization,2020,2.3361264214282205,4,177
+R: MPC / optimal control / trajectory optimization,2021,2.025237186435457,4,237
+R: MPC / optimal control / trajectory optimization,2022,1.7204823227379178,5,286
+R: MPC / optimal control / trajectory optimization,2023,1.6729520188168403,6,381
+R: MPC / optimal control / trajectory optimization,2024,1.2078902678026773,7,540
+R: MPC / optimal control / trajectory optimization,2025,1.6679823902908693,14,879
+R: MPC / optimal control / trajectory optimization,2026,2.1783680094648936,21,1111
+R: Safety / verification,2020,2.7413228940939254,5,177
+R: Safety / verification,2021,4.808233207527383,10,237
+R: Safety / verification,2022,1.7290466857488056,5,286
+R: Safety / verification,2023,2.99222313077993,11,381
+R: Safety / verification,2024,2.039884589467453,12,540
+R: Safety / verification,2025,3.851802820007566,32,879
+R: Safety / verification,2026,3.6055437181878194,42,1111
+R: Uncertainty / probabilistic,2020,6.997772217844725,12,177
+R: Uncertainty / probabilistic,2021,7.088697526795156,16,237
+R: Uncertainty / probabilistic,2022,4.292555224931922,12,286
+R: Uncertainty / probabilistic,2023,5.498244599295433,21,381
+R: Uncertainty / probabilistic,2024,4.248642123215464,23,540
+R: Uncertainty / probabilistic,2025,4.215802564207533,37,879
+R: Uncertainty / probabilistic,2026,4.901638907100472,47,1111
+R: Force / impedance control,2020,2.602743801923056e-10,0,177
+R: Force / impedance control,2021,2.6083454354896944e-10,0,237
+R: Force / impedance control,2022,2.472809591105893e-10,0,286
+R: Force / impedance control,2023,2.451534910149247e-10,0,381
+R: Force / impedance control,2024,0.36621729944367487,2,540
+R: Force / impedance control,2025,0.2291247520396663,2,879
+R: Force / impedance control,2026,0.6898916545076638,6,1111
+R: Hardware: mechanisms / actuators / design,2020,2.2816289335612,4,177
+R: Hardware: mechanisms / actuators / design,2021,2.6224412486556994,6,237
+R: Hardware: mechanisms / actuators / design,2022,1.7460358744904345,5,286
+R: Hardware: mechanisms / actuators / design,2023,2.13749245580888,8,381
+R: Hardware: mechanisms / actuators / design,2024,1.6052754587288893,9,540
+R: Hardware: mechanisms / actuators / design,2025,1.5145426633658725,13,879
+R: Hardware: mechanisms / actuators / design,2026,0.8538923457267349,10,1111
+R: Calibration / registration,2020,1.5212736532962037,3,177
+R: Calibration / registration,2021,4.06811646233427,10,237
+R: Calibration / registration,2022,1.6091594260287299,5,286
+R: Calibration / registration,2023,3.7318483311641253,14,381
+R: Calibration / registration,2024,2.506244769708402,14,540
+R: Calibration / registration,2025,2.3246321942637254,20,879
+R: Calibration / registration,2026,2.4139877622154233,31,1111
+M: Bayesian & probabilistic inference,2020,3.8148284193899547,6,177
+M: Bayesian & probabilistic inference,2021,1.7622701989996146,4,237
+M: Bayesian & probabilistic inference,2022,2.6652658524293904,7,286
+M: Bayesian & probabilistic inference,2023,1.5498194512697285,6,381
+M: Bayesian & probabilistic inference,2024,2.254136842575712,12,540
+M: Bayesian & probabilistic inference,2025,0.9023232823025277,8,879
+M: Bayesian & probabilistic inference,2026,1.391253936060185,13,1111
+M: Image generation / editing,2020,3.029181319782249,6,177
+M: Image generation / editing,2021,0.462782242879261,1,237
+M: Image generation / editing,2022,1.2380687946668114,4,286
+M: Image generation / editing,2023,3.393812430353818,12,381
+M: Image generation / editing,2024,1.858172171283031,11,540
+M: Image generation / editing,2025,1.4512001941544066,12,879
+M: Image generation / editing,2026,1.9034582881365039,23,1111
+M: 3D reconstruction / SfM / SLAM,2020,7.8805686898555045,16,177
+M: 3D reconstruction / SfM / SLAM,2021,6.669561674169793,18,237
+M: 3D reconstruction / SfM / SLAM,2022,5.388256541546731,17,286
+M: 3D reconstruction / SfM / SLAM,2023,6.685067980812468,26,381
+M: 3D reconstruction / SfM / SLAM,2024,4.360192011307797,23,540
+M: 3D reconstruction / SfM / SLAM,2025,5.945951071179989,53,879
+M: 3D reconstruction / SfM / SLAM,2026,6.541465043726669,81,1111
+M: Face analysis,2020,1.205369555528302,2,177
+M: Face analysis,2021,5.878857924430211e-10,0,237
+M: Face analysis,2022,0.38161806377043084,1,286
+M: Face analysis,2023,0.2372079880850485,1,381
+M: Face analysis,2024,0.2273977050432142,1,540
+M: Face analysis,2025,0.30641894286754673,3,879
+M: Face analysis,2026,0.48256952713185464,5,1111
+M: Time series / forecasting,2020,5.128846922199186e-10,0,177
+M: Time series / forecasting,2021,5.142387119968886e-10,0,237
+M: Time series / forecasting,2022,0.7830009266272442,2,286
+M: Time series / forecasting,2023,0.5551779230180366,2,381
+M: Time series / forecasting,2024,0.18250214434603895,1,540
+M: Time series / forecasting,2025,0.34440557027313445,3,879
+M: Time series / forecasting,2026,0.11403241214026441,1,1111
+M: Privacy,2020,0.8115812077406483,2,177
+M: Privacy,2021,0.49429329980477454,1,237
+M: Privacy,2022,0.5109695475810098,2,286
+M: Privacy,2023,0.30979767751221776,1,381
+M: Privacy,2024,0.15391322138821106,1,540
+M: Privacy,2025,0.778558079551557,6,879
+M: Privacy,2026,0.30341654837857096,4,1111
+M: VAEs / vector-quantized models,2020,1.1991251594506394,2,177
+M: VAEs / vector-quantized models,2021,1.2423948408658145,3,237
+M: VAEs / vector-quantized models,2022,1.9364781644982934,5,286
+M: VAEs / vector-quantized models,2023,1.0102230834371917,4,381
+M: VAEs / vector-quantized models,2024,2.276976530203543,12,540
+M: VAEs / vector-quantized models,2025,1.1210704644597553,10,879
+M: VAEs / vector-quantized models,2026,1.0019602038773283,12,1111
+M: Fairness / bias,2020,6.54353958971258e-10,0,177
+M: Fairness / bias,2021,0.4493857188109289,1,237
+M: Fairness / bias,2022,6.983452258242542e-10,0,286
+M: Fairness / bias,2023,0.8112460242508786,3,381
+M: Fairness / bias,2024,0.6987436048750788,4,540
+M: Fairness / bias,2025,0.47253150716911235,4,879
+M: Fairness / bias,2026,0.3943210028103963,6,1111
+M: Synthetic data / data augmentation,2020,2.3545143606828725,4,177
+M: Synthetic data / data augmentation,2021,1.5798662151898863,4,237
+M: Synthetic data / data augmentation,2022,4.420214804447626,12,286
+M: Synthetic data / data augmentation,2023,1.7771379400676481,7,381
+M: Synthetic data / data augmentation,2024,1.923871611545294,10,540
+M: Synthetic data / data augmentation,2025,1.2231158891940357,11,879
+M: Synthetic data / data augmentation,2026,1.7052952436256252,20,1111
+M: Alignment / RLHF / preference optimization,2020,0.6352424869760677,1,177
+M: Alignment / RLHF / preference optimization,2021,0.49611791591412535,1,237
+M: Alignment / RLHF / preference optimization,2022,1.1152196080719596,3,286
+M: Alignment / RLHF / preference optimization,2023,1.0985167385937245,4,381
+M: Alignment / RLHF / preference optimization,2024,3.0229064711397964,17,540
+M: Alignment / RLHF / preference optimization,2025,2.801661537841303,24,879
+M: Alignment / RLHF / preference optimization,2026,1.9069096868008384,20,1111
+M: Clustering / unsupervised learning,2020,5.923270744870549,10,177
+M: Clustering / unsupervised learning,2021,3.949562262348419,10,237
+M: Clustering / unsupervised learning,2022,5.632822814906531,15,286
+M: Clustering / unsupervised learning,2023,2.530790930354489,10,381
+M: Clustering / unsupervised learning,2024,3.44935261902555,18,540
+M: Clustering / unsupervised learning,2025,2.2288636358695566,20,879
+M: Clustering / unsupervised learning,2026,1.6861146643558411,21,1111
+M: OOD / anomaly detection,2020,0.5713529264054006,1,177
+M: OOD / anomaly detection,2021,7.96926255541807e-10,0,237
+M: OOD / anomaly detection,2022,1.0186594377700378,3,286
+M: OOD / anomaly detection,2023,0.5300712231776522,2,381
+M: OOD / anomaly detection,2024,0.5584796346688056,3,540
+M: OOD / anomaly detection,2025,0.5670042568122557,5,879
+M: OOD / anomaly detection,2026,0.5929218868172954,6,1111
+M: Combinatorial optimization / scheduling,2020,1.0355171815005135,2,177
+M: Combinatorial optimization / scheduling,2021,7.682835929353495e-10,0,237
+M: Combinatorial optimization / scheduling,2022,0.6327138462171398,2,286
+M: Combinatorial optimization / scheduling,2023,0.8940300225499985,3,381
+M: Combinatorial optimization / scheduling,2024,0.48512437186347374,3,540
+M: Combinatorial optimization / scheduling,2025,0.24980360158241688,2,879
+M: Combinatorial optimization / scheduling,2026,0.21547304980247556,3,1111
+M: Spiking / neuromorphic networks,2020,2.459145234772719e-10,0,177
+M: Spiking / neuromorphic networks,2021,2.4722572836739087e-10,0,237
+M: Spiking / neuromorphic networks,2022,0.7837214632138484,2,286
+M: Spiking / neuromorphic networks,2023,0.25783494800520584,1,381
+M: Spiking / neuromorphic networks,2024,2.435317292323332e-10,0,540
+M: Spiking / neuromorphic networks,2025,0.3479560266410576,3,879
+M: Spiking / neuromorphic networks,2026,0.09399246800794675,1,1111
+M: Mixture of experts,2020,3.506097428110904e-10,0,177
+M: Mixture of experts,2021,0.40673599980547215,1,237
+M: Mixture of experts,2022,0.40060301646741464,1,286
+M: Mixture of experts,2023,2.810117190168894e-10,0,381
+M: Mixture of experts,2024,0.8006871665983462,4,540
+M: Mixture of experts,2025,0.8701188102851922,8,879
+M: Mixture of experts,2026,1.8034205375363421,19,1111
+M: Federated learning,2020,2.0947295839394093e-10,0,177
+M: Federated learning,2021,3.138930004176329e-10,0,237
+M: Federated learning,2022,0.5364938069568799,2,286
+M: Federated learning,2023,0.28329047044187794,1,381
+M: Federated learning,2024,0.15620692127877345,1,540
+M: Federated learning,2025,0.25668589246055223,2,879
+M: Federated learning,2026,0.18508478850954307,3,1111
+M: Video generation / editing,2020,1.0245351651459647,2,177
+M: Video generation / editing,2021,0.8776413292322442,2,237
+M: Video generation / editing,2022,1.2866338467826561,4,286
+M: Video generation / editing,2023,1.631019420686037,6,381
+M: Video generation / editing,2024,2.4830204508542764,14,540
+M: Video generation / editing,2025,5.138695600810599,44,879
+M: Video generation / editing,2026,5.885778695738087,68,1111
+M: Autoregressive models / tokenizers,2020,1.4119163516621764,2,177
+M: Autoregressive models / tokenizers,2021,0.4007772896935706,1,237
+M: Autoregressive models / tokenizers,2022,0.40707816887399445,1,286
+M: Autoregressive models / tokenizers,2023,0.7353017674792339,3,381
+M: Autoregressive models / tokenizers,2024,2.121213376048311,10,540
+M: Autoregressive models / tokenizers,2025,2.427683855725551,23,879
+M: Autoregressive models / tokenizers,2026,8.30727809618064,58,1111
+M: Recurrent networks / LSTMs,2020,1.2431771269298661,2,177
+M: Recurrent networks / LSTMs,2021,2.143406746536191,5,237
+M: Recurrent networks / LSTMs,2022,2.186981835522981,6,286
+M: Recurrent networks / LSTMs,2023,1.0613547485640935,4,381
+M: Recurrent networks / LSTMs,2024,1.3246674689362852,7,540
+M: Recurrent networks / LSTMs,2025,0.3368693796005784,3,879
+M: Recurrent networks / LSTMs,2026,0.28126722302992985,3,1111
+M: Healthcare / clinical,2020,1.9134907671091064,3,177
+M: Healthcare / clinical,2021,1.9164139274322523,4,237
+M: Healthcare / clinical,2022,1.1032213598006715,3,286
+M: Healthcare / clinical,2023,1.0726068443910606,4,381
+M: Healthcare / clinical,2024,1.8236686329630603,10,540
+M: Healthcare / clinical,2025,1.6079327388004956,14,879
+M: Healthcare / clinical,2026,1.1977241488874655,10,1111
+M: Offline RL / imitation learning,2020,10.135035037156861,16,177
+M: Offline RL / imitation learning,2021,10.653731712547161,23,237
+M: Offline RL / imitation learning,2022,13.133886747421972,35,286
+M: Offline RL / imitation learning,2023,11.741504549388766,44,381
+M: Offline RL / imitation learning,2024,10.808994156409808,59,540
+M: Offline RL / imitation learning,2025,10.76555530407197,94,879
+M: Offline RL / imitation learning,2026,8.886544518518988,92,1111
+M: Object detection,2020,3.8247596584325847,9,177
+M: Object detection,2021,5.346438401658778,13,237
+M: Object detection,2022,4.159587308431754,15,286
+M: Object detection,2023,4.416010234931546,16,381
+M: Object detection,2024,3.0566675698309376,18,540
+M: Object detection,2025,1.570861223654512,13,879
+M: Object detection,2026,1.49358088650107,19,1111
+M: Novel view synthesis / neural rendering,2020,8.034065591810217e-10,0,177
+M: Novel view synthesis / neural rendering,2021,1.5580075665953674,4,237
+M: Novel view synthesis / neural rendering,2022,1.006380973457931,3,286
+M: Novel view synthesis / neural rendering,2023,2.3095822366665733,9,381
+M: Novel view synthesis / neural rendering,2024,1.5602169300621775,8,540
+M: Novel view synthesis / neural rendering,2025,2.8698001388844467,26,879
+M: Novel view synthesis / neural rendering,2026,2.0051072969893937,19,1111
+M: Meta-learning,2020,3.0134192411867855,5,177
+M: Meta-learning,2021,2.436914339604958,5,237
+M: Meta-learning,2022,1.89834688360667,5,286
+M: Meta-learning,2023,0.5401857898560511,2,381
+M: Meta-learning,2024,2.8770708341579395e-10,0,540
+M: Meta-learning,2025,0.47828338260935704,4,879
+M: Meta-learning,2026,0.15265224078190595,2,1111
+M: Kernel methods / Gaussian processes,2020,1.3103344193604893e-09,0,177
+M: Kernel methods / Gaussian processes,2021,1.4963452131754498,3,237
+M: Kernel methods / Gaussian processes,2022,0.40142957916804556,1,286
+M: Kernel methods / Gaussian processes,2023,0.2680051751536094,1,381
+M: Kernel methods / Gaussian processes,2024,0.720294430330506,4,540
+M: Kernel methods / Gaussian processes,2025,0.23158165234089256,2,879
+M: Kernel methods / Gaussian processes,2026,0.09859325478221669,1,1111
+M: Hallucination / factuality,2020,2.6840947734741005e-10,0,177
+M: Hallucination / factuality,2021,2.49090904505141e-10,0,237
+M: Hallucination / factuality,2022,2.6448663184722765e-10,0,286
+M: Hallucination / factuality,2023,0.2782865362157488,1,381
+M: Hallucination / factuality,2024,1.010556387302898,6,540
+M: Hallucination / factuality,2025,0.9693714491122255,8,879
+M: Hallucination / factuality,2026,1.6636015285439072,18,1111
+M: Foundation models,2020,2.540189816857565e-10,0,177
+M: Foundation models,2021,3.1244194425095656e-10,0,237
+M: Foundation models,2022,2.5685641076475713e-10,0,286
+M: Foundation models,2023,3.0660531247075866,11,381
+M: Foundation models,2024,4.587823150508371,27,540
+M: Foundation models,2025,9.249169282738242,77,879
+M: Foundation models,2026,6.966955614054597,86,1111
+M: GANs,2020,2.573672546355222,4,177
+M: GANs,2021,0.7062726201994117,2,237
+M: GANs,2022,0.7956631526099113,2,286
+M: GANs,2023,0.7109417865918484,3,381
+M: GANs,2024,0.8543975597834085,4,540
+M: GANs,2025,0.2102949983016173,2,879
+M: GANs,2026,0.10336545278886594,1,1111
+M: Image retrieval / metric learning,2020,6.328429213205964e-10,0,177
+M: Image retrieval / metric learning,2021,1.6480205856704684,4,237
+M: Image retrieval / metric learning,2022,0.5584908526575428,2,286
+M: Image retrieval / metric learning,2023,0.8508927469585688,3,381
+M: Image retrieval / metric learning,2024,0.8362404514960647,5,540
+M: Image retrieval / metric learning,2025,1.217117365785381,10,879
+M: Image retrieval / metric learning,2026,0.06418304334769231,1,1111
+M: In-context learning,2020,3.112825611171566e-10,0,177
+M: In-context learning,2021,2.703153333368518e-10,0,237
+M: In-context learning,2022,3.1379912504010675e-10,0,286
+M: In-context learning,2023,0.5523403944189555,2,381
+M: In-context learning,2024,1.183989969504526,7,540
+M: In-context learning,2025,1.208054556628723,10,879
+M: In-context learning,2026,0.44373879153402845,6,1111
+M: Fine-tuning / PEFT / prompting,2020,3.4259072578438854,6,177
+M: Fine-tuning / PEFT / prompting,2021,0.43341738769125593,1,237
+M: Fine-tuning / PEFT / prompting,2022,3.4980747435932504,10,286
+M: Fine-tuning / PEFT / prompting,2023,9.872505210033019,37,381
+M: Fine-tuning / PEFT / prompting,2024,9.356978487545188,51,540
+M: Fine-tuning / PEFT / prompting,2025,12.812323738543904,112,879
+M: Fine-tuning / PEFT / prompting,2026,15.340860635301338,177,1111
+M: Flow matching / normalizing flows,2020,3.2689788498892603e-10,0,177
+M: Flow matching / normalizing flows,2021,0.421171700376788,1,237
+M: Flow matching / normalizing flows,2022,3.166724824221776e-10,0,286
+M: Flow matching / normalizing flows,2023,0.5074835777836006,2,381
+M: Flow matching / normalizing flows,2024,0.3933549822033146,2,540
+M: Flow matching / normalizing flows,2025,1.6479886896420401,15,879
+M: Flow matching / normalizing flows,2026,4.528943570756801,38,1111
+M: Bandits / online learning,2020,1.242943169618918,2,177
+M: Bandits / online learning,2021,1.5661186268355152,3,237
+M: Bandits / online learning,2022,0.7148180956185195,2,286
+M: Bandits / online learning,2023,0.8484566298535289,3,381
+M: Bandits / online learning,2024,0.5221265911694039,3,540
+M: Bandits / online learning,2025,0.5921295413906821,5,879
+M: Bandits / online learning,2026,0.29628638386307704,3,1111
+M: Convolutional networks,2020,6.067704708856987,11,177
+M: Convolutional networks,2021,2.9830574340582636,8,237
+M: Convolutional networks,2022,3.138568448542606,9,286
+M: Convolutional networks,2023,2.0288829784625677,8,381
+M: Convolutional networks,2024,0.9643539897562589,5,540
+M: Convolutional networks,2025,0.33310050016157255,3,879
+M: Convolutional networks,2026,0.3153839029866973,4,1111
+M: Depth / stereo / optical flow / matching,2020,4.190996535129456,9,177
+M: Depth / stereo / optical flow / matching,2021,5.305251596926302,14,237
+M: Depth / stereo / optical flow / matching,2022,5.450132585590682,18,286
+M: Depth / stereo / optical flow / matching,2023,3.688380524562128,14,381
+M: Depth / stereo / optical flow / matching,2024,4.008586894239893,22,540
+M: Depth / stereo / optical flow / matching,2025,4.480859683595901,39,879
+M: Depth / stereo / optical flow / matching,2026,2.8246650853112603,37,1111
+M: Optimal transport,2020,0.6707534981003603,1,177
+M: Optimal transport,2021,0.5066848679186954,1,237
+M: Optimal transport,2022,1.4747997486241398,4,286
+M: Optimal transport,2023,1.0692751249395622,4,381
+M: Optimal transport,2024,0.7367818515157859,4,540
+M: Optimal transport,2025,0.5706677535876585,5,879
+M: Optimal transport,2026,1.3586829891621242,7,1111
+M: Segmentation,2020,7.895860796943001,16,177
+M: Segmentation,2021,5.276759624553154,14,237
+M: Segmentation,2022,4.759806482146125,15,286
+M: Segmentation,2023,5.690131628360124,22,381
+M: Segmentation,2024,6.929065785486515,37,540
+M: Segmentation,2025,6.553557786596914,58,879
+M: Segmentation,2026,5.692630663089067,71,1111
+M: Retrieval-augmented generation,2020,1.256232379727388e-10,0,177
+M: Retrieval-augmented generation,2021,9.445260920158461e-11,0,237
+M: Retrieval-augmented generation,2022,1.302739361595113e-10,0,286
+M: Retrieval-augmented generation,2023,9.82323130099315e-11,0,381
+M: Retrieval-augmented generation,2024,1.2714308164196175,6,540
+M: Retrieval-augmented generation,2025,0.6331012048002617,6,879
+M: Retrieval-augmented generation,2026,0.9157893051690529,10,1111
+M: Semi- / weakly supervised & noisy labels,2020,1.4900059065095312,3,177
+M: Semi- / weakly supervised & noisy labels,2021,1.2417395790133454,3,237
+M: Semi- / weakly supervised & noisy labels,2022,2.883344653086024,9,286
+M: Semi- / weakly supervised & noisy labels,2023,1.5955280356839834,6,381
+M: Semi- / weakly supervised & noisy labels,2024,1.6276799358889829,9,540
+M: Semi- / weakly supervised & noisy labels,2025,1.2703000761947147,11,879
+M: Semi- / weakly supervised & noisy labels,2026,1.1583931527587779,14,1111
+M: Statistical estimation / high-dimensional statistics,2020,1.0224943402776046e-10,0,177
+M: Statistical estimation / high-dimensional statistics,2021,0.45835608035002595,1,237
+M: Statistical estimation / high-dimensional statistics,2022,1.0106369401330442e-10,0,286
+M: Statistical estimation / high-dimensional statistics,2023,0.8161899157892237,3,381
+M: Statistical estimation / high-dimensional statistics,2024,0.5392843473553085,3,540
+M: Statistical estimation / high-dimensional statistics,2025,1.1096935079448823e-10,0,879
+M: Statistical estimation / high-dimensional statistics,2026,0.3249630441163465,3,1111
+M: Transformers / attention,2020,4.149281058925243,7,177
+M: Transformers / attention,2021,5.50882018899484,14,237
+M: Transformers / attention,2022,10.679698911771917,29,286
+M: Transformers / attention,2023,9.390214195774073,37,381
+M: Transformers / attention,2024,12.019569333320405,62,540
+M: Transformers / attention,2025,8.182291214744566,74,879
+M: Transformers / attention,2026,9.88808198117873,113,1111
+M: Vision-language / multimodal LLMs,2020,2.9188783899044033,5,177
+M: Vision-language / multimodal LLMs,2021,2.0477040745868385,5,237
+M: Vision-language / multimodal LLMs,2022,2.8601037836164545,8,286
+M: Vision-language / multimodal LLMs,2023,6.643876833029521,26,381
+M: Vision-language / multimodal LLMs,2024,12.933108179442353,67,540
+M: Vision-language / multimodal LLMs,2025,25.29797050652104,227,879
+M: Vision-language / multimodal LLMs,2026,45.261702441759475,455,1111

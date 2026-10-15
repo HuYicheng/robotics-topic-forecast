@@ -1,0 +1,1093 @@
+key,part,year,share,k,n
+M: Reinforcement learning,llm,2020,0.2842302407027471,17,6492
+M: Reinforcement learning,llm,2021,0.17851717473394113,13,7822
+M: Reinforcement learning,llm,2022,0.31856931558980567,27,8877
+M: Reinforcement learning,llm,2023,0.5935887739074771,64,11453
+M: Reinforcement learning,llm,2024,1.5124750108809202,215,14390
+M: Reinforcement learning,llm,2025,3.137478065904905,581,18346
+M: Reinforcement learning,llm,2026,10.450624808474373,1510,17984
+M: Reinforcement learning,other,2020,10.06235853087795,571,6492
+M: Reinforcement learning,other,2021,9.842516722749117,673,7822
+M: Reinforcement learning,other,2022,9.209925666976533,724,8877
+M: Reinforcement learning,other,2023,8.271696848096695,860,11453
+M: Reinforcement learning,other,2024,6.291200738509471,878,14390
+M: Reinforcement learning,other,2025,4.674165893022194,878,18346
+M: Reinforcement learning,other,2026,4.727560396495597,899,17984
+M: Reinforcement learning,all,2020,10.16025435547859,588,6492
+M: Reinforcement learning,all,2021,9.907358347167856,686,7822
+M: Reinforcement learning,all,2022,9.321061338491237,751,8877
+M: Reinforcement learning,all,2023,8.827414727691,924,11453
+M: Reinforcement learning,all,2024,7.768757331716876,1093,14390
+M: Reinforcement learning,all,2025,7.816067069370732,1459,18346
+M: Reinforcement learning,all,2026,13.437392344449162,2409,17984
+M: Bayesian & probabilistic inference,llm,2020,0.1605528049652142,9,6492
+M: Bayesian & probabilistic inference,llm,2021,0.08290759724202415,6,7822
+M: Bayesian & probabilistic inference,llm,2022,0.0901690206592155,7,8877
+M: Bayesian & probabilistic inference,llm,2023,0.16557021932516972,18,11453
+M: Bayesian & probabilistic inference,llm,2024,0.3799442833948685,52,14390
+M: Bayesian & probabilistic inference,llm,2025,0.44619700035347654,85,18346
+M: Bayesian & probabilistic inference,llm,2026,0.6127196357293088,111,17984
+M: Bayesian & probabilistic inference,other,2020,5.654653400633093,330,6492
+M: Bayesian & probabilistic inference,other,2021,4.9048703264965745,346,7822
+M: Bayesian & probabilistic inference,other,2022,4.4850399666284,360,8877
+M: Bayesian & probabilistic inference,other,2023,3.8196609094095857,405,11453
+M: Bayesian & probabilistic inference,other,2024,2.900483953714837,408,14390
+M: Bayesian & probabilistic inference,other,2025,2.1638852579333987,404,18346
+M: Bayesian & probabilistic inference,other,2026,1.9598601940217737,357,17984
+M: Bayesian & probabilistic inference,all,2020,5.829816998213099,339,6492
+M: Bayesian & probabilistic inference,all,2021,4.980435409433808,352,7822
+M: Bayesian & probabilistic inference,all,2022,4.5855783696481005,367,8877
+M: Bayesian & probabilistic inference,all,2023,3.9817058376250354,423,11453
+M: Bayesian & probabilistic inference,all,2024,3.2777736963790174,460,14390
+M: Bayesian & probabilistic inference,all,2025,2.614606757835295,489,18346
+M: Bayesian & probabilistic inference,all,2026,2.570415305135604,468,17984
+M: Autonomous driving,llm,2020,0.014220955211613897,1,6492
+M: Autonomous driving,llm,2021,0.032830391115499215,3,7822
+M: Autonomous driving,llm,2022,0.052382702150773584,5,8877
+M: Autonomous driving,llm,2023,0.13972547245177763,18,11453
+M: Autonomous driving,llm,2024,0.39789131579331344,57,14390
+M: Autonomous driving,llm,2025,0.5160438838109558,95,18346
+M: Autonomous driving,llm,2026,0.8127950131448911,121,17984
+M: Autonomous driving,other,2020,1.943865810958884,149,6492
+M: Autonomous driving,other,2021,2.160304477027342,195,7822
+M: Autonomous driving,other,2022,2.6851655926761713,276,8877
+M: Autonomous driving,other,2023,3.0528291224248996,388,11453
+M: Autonomous driving,other,2024,2.7054509972469907,408,14390
+M: Autonomous driving,other,2025,2.5602945858760675,452,18346
+M: Autonomous driving,other,2026,2.080596570866983,360,17984
+M: Autonomous driving,all,2020,1.9730438566311113,150,6492
+M: Autonomous driving,all,2021,2.192124243142704,198,7822
+M: Autonomous driving,all,2022,2.7540309425977885,281,8877
+M: Autonomous driving,all,2023,3.192279457181029,406,11453
+M: Autonomous driving,all,2024,3.0989130662469053,465,14390
+M: Autonomous driving,all,2025,3.085052263465466,547,18346
+M: Autonomous driving,all,2026,2.812388420995944,481,17984
+M: Image generation / editing,llm,2020,0.04300857552926565,3,6492
+M: Image generation / editing,llm,2021,0.07110011227959076,6,7822
+M: Image generation / editing,llm,2022,0.3339113499344269,32,8877
+M: Image generation / editing,llm,2023,0.8942752364627925,108,11453
+M: Image generation / editing,llm,2024,1.4252619839341951,209,14390
+M: Image generation / editing,llm,2025,1.7761324675736774,321,18346
+M: Image generation / editing,llm,2026,2.150681333069864,336,17984
+M: Image generation / editing,other,2020,3.0400361037140935,220,6492
+M: Image generation / editing,other,2021,2.9804585650054034,257,7822
+M: Image generation / editing,other,2022,2.8525587383196265,279,8877
+M: Image generation / editing,other,2023,3.5542995230442727,438,11453
+M: Image generation / editing,other,2024,5.21768193545856,771,14390
+M: Image generation / editing,other,2025,5.056089474058378,908,18346
+M: Image generation / editing,other,2026,4.048670476196007,739,17984
+M: Image generation / editing,all,2020,3.096200384751853,223,6492
+M: Image generation / editing,all,2021,3.061548014162351,263,7822
+M: Image generation / editing,all,2022,3.186640617732529,311,8877
+M: Image generation / editing,all,2023,4.449994173917989,546,11453
+M: Image generation / editing,all,2024,6.637769205653278,980,14390
+M: Image generation / editing,all,2025,6.838048753495042,1229,18346
+M: Image generation / editing,all,2026,6.054995424045515,1075,17984
+M: 3D reconstruction / SfM / SLAM,llm,2020,0.04138990198799294,3,6492
+M: 3D reconstruction / SfM / SLAM,llm,2021,0.020718662478665044,2,7822
+M: 3D reconstruction / SfM / SLAM,llm,2022,0.040984463364299076,4,8877
+M: 3D reconstruction / SfM / SLAM,llm,2023,0.03700579413417296,5,11453
+M: 3D reconstruction / SfM / SLAM,llm,2024,0.06314531847704083,9,14390
+M: 3D reconstruction / SfM / SLAM,llm,2025,0.1785622130937535,33,18346
+M: 3D reconstruction / SfM / SLAM,llm,2026,0.4248373417815638,68,17984
+M: 3D reconstruction / SfM / SLAM,other,2020,2.2886215366176432,179,6492
+M: 3D reconstruction / SfM / SLAM,other,2021,2.3638312004127813,221,7822
+M: 3D reconstruction / SfM / SLAM,other,2022,2.357635497501345,248,8877
+M: 3D reconstruction / SfM / SLAM,other,2023,2.80168791700953,367,11453
+M: 3D reconstruction / SfM / SLAM,other,2024,2.8821835828385534,435,14390
+M: 3D reconstruction / SfM / SLAM,other,2025,3.1681234343566524,559,18346
+M: 3D reconstruction / SfM / SLAM,other,2026,3.0773691125501568,536,17984
+M: 3D reconstruction / SfM / SLAM,all,2020,2.33259666285211,182,6492
+M: 3D reconstruction / SfM / SLAM,all,2021,2.38331089623727,223,7822
+M: 3D reconstruction / SfM / SLAM,all,2022,2.401684923102312,252,8877
+M: 3D reconstruction / SfM / SLAM,all,2023,2.837690144229774,372,11453
+M: 3D reconstruction / SfM / SLAM,all,2024,2.94696137848487,444,14390
+M: 3D reconstruction / SfM / SLAM,all,2025,3.350099121768298,592,18346
+M: 3D reconstruction / SfM / SLAM,all,2026,3.475133579143673,604,17984
+M: Face analysis,llm,2020,0.013401589165805148,1,6492
+M: Face analysis,llm,2021,0.02130104645280723,2,7822
+M: Face analysis,llm,2022,0.0694369032572585,7,8877
+M: Face analysis,llm,2023,0.1066771869126081,14,11453
+M: Face analysis,llm,2024,0.12933112462295368,19,14390
+M: Face analysis,llm,2025,0.1884211872079559,34,18346
+M: Face analysis,llm,2026,0.2561722099564113,38,17984
+M: Face analysis,other,2020,2.250280036054654,189,6492
+M: Face analysis,other,2021,2.090289907262625,184,7822
+M: Face analysis,other,2022,1.9139952507450688,215,8877
+M: Face analysis,other,2023,1.8373090037422692,228,11453
+M: Face analysis,other,2024,1.479368746410608,238,14390
+M: Face analysis,other,2025,1.5375695849450126,256,18346
+M: Face analysis,other,2026,0.9028585150046372,178,17984
+M: Face analysis,all,2020,2.2745358568671983,190,6492
+M: Face analysis,all,2021,2.1068848861972045,186,7822
+M: Face analysis,all,2022,1.9864563091494247,222,8877
+M: Face analysis,all,2023,1.9454171000403384,242,11453
+M: Face analysis,all,2024,1.6043026292807503,257,14390
+M: Face analysis,all,2025,1.7344463299486665,290,18346
+M: Face analysis,all,2026,1.1117074233927506,216,17984
+M: Time series / forecasting,llm,2020,0.03628613163728391,2,6492
+M: Time series / forecasting,llm,2021,3.796966703009783e-11,0,7822
+M: Time series / forecasting,llm,2022,0.012835804188849931,1,8877
+M: Time series / forecasting,llm,2023,0.01924256812531091,2,11453
+M: Time series / forecasting,llm,2024,0.15905008531736825,22,14390
+M: Time series / forecasting,llm,2025,0.23275649653154334,44,18346
+M: Time series / forecasting,llm,2026,0.3350710232473305,55,17984
+M: Time series / forecasting,other,2020,0.9304193264434777,52,6492
+M: Time series / forecasting,other,2021,1.4601429974898923,100,7822
+M: Time series / forecasting,other,2022,1.2362614088055506,96,8877
+M: Time series / forecasting,other,2023,1.4390782841467968,150,11453
+M: Time series / forecasting,other,2024,1.6301218822742713,226,14390
+M: Time series / forecasting,other,2025,1.4942609133926288,282,18346
+M: Time series / forecasting,other,2026,1.4636705698782952,274,17984
+M: Time series / forecasting,all,2020,0.9684213658910035,54,6492
+M: Time series / forecasting,all,2021,1.4599974914777005,100,7822
+M: Time series / forecasting,all,2022,1.2502425624303366,97,8877
+M: Time series / forecasting,all,2023,1.4582963363805144,152,11453
+M: Time series / forecasting,all,2024,1.7902754251789659,248,14390
+M: Time series / forecasting,all,2025,1.7263778333131257,326,18346
+M: Time series / forecasting,all,2026,1.7727726826171564,329,17984
+M: Privacy,llm,2020,0.017005358389895503,1,6492
+M: Privacy,llm,2021,1.6103181517266984e-11,0,7822
+M: Privacy,llm,2022,0.13401739509356067,11,8877
+M: Privacy,llm,2023,0.20414490111133138,22,11453
+M: Privacy,llm,2024,0.5628179296473644,79,14390
+M: Privacy,llm,2025,0.7754436236523516,145,18346
+M: Privacy,llm,2026,0.8391461840725065,144,17984
+M: Privacy,other,2020,1.6777234760305322,105,6492
+M: Privacy,other,2021,2.369469282013147,184,7822
+M: Privacy,other,2022,2.8436831003837164,243,8877
+M: Privacy,other,2023,3.301657286570281,376,11453
+M: Privacy,other,2024,2.644335118689433,375,14390
+M: Privacy,other,2025,2.2257943169100667,413,18346
+M: Privacy,other,2026,1.825668195993791,319,17984
+M: Privacy,all,2020,1.7148325413473078,106,6492
+M: Privacy,all,2021,2.399126401424081,184,7822
+M: Privacy,all,2022,2.997565714401448,254,8877
+M: Privacy,all,2023,3.525218966881972,398,11453
+M: Privacy,all,2024,3.210885571273972,454,14390
+M: Privacy,all,2025,3.000507068497884,558,18346
+M: Privacy,all,2026,2.6493176951057964,463,17984
+M: VAEs / vector-quantized models,llm,2020,0.03316580474262865,2,6492
+M: VAEs / vector-quantized models,llm,2021,0.012508267800637945,1,7822
+M: VAEs / vector-quantized models,llm,2022,0.11899542889912379,10,8877
+M: VAEs / vector-quantized models,llm,2023,0.11078487584693557,13,11453
+M: VAEs / vector-quantized models,llm,2024,0.1744166529603141,24,14390
+M: VAEs / vector-quantized models,llm,2025,0.3003903066896684,57,18346
+M: VAEs / vector-quantized models,llm,2026,0.29278845689098976,50,17984
+M: VAEs / vector-quantized models,other,2020,1.8080801700950535,115,6492
+M: VAEs / vector-quantized models,other,2021,1.6895889348631115,134,7822
+M: VAEs / vector-quantized models,other,2022,1.8047244582873174,157,8877
+M: VAEs / vector-quantized models,other,2023,1.2128295147957546,141,11453
+M: VAEs / vector-quantized models,other,2024,1.0959099517321191,155,14390
+M: VAEs / vector-quantized models,other,2025,1.2532237924997,233,18346
+M: VAEs / vector-quantized models,other,2026,1.2215778582369625,226,17984
+M: VAEs / vector-quantized models,all,2020,1.8500240558805114,117,6492
+M: VAEs / vector-quantized models,all,2021,1.7014046642620981,135,7822
+M: VAEs / vector-quantized models,all,2022,1.9267811737785152,167,8877
+M: VAEs / vector-quantized models,all,2023,1.3236722623739785,154,11453
+M: VAEs / vector-quantized models,all,2024,1.2692681529392595,179,14390
+M: VAEs / vector-quantized models,all,2025,1.5564231022280663,290,18346
+M: VAEs / vector-quantized models,all,2026,1.5028867174073262,276,17984
+M: Fairness / bias,llm,2020,0.01679123765061895,1,6492
+M: Fairness / bias,llm,2021,0.10454834044254448,8,7822
+M: Fairness / bias,llm,2022,0.07097232720508116,6,8877
+M: Fairness / bias,llm,2023,0.3361865290211743,38,11453
+M: Fairness / bias,llm,2024,0.45261558272376345,63,14390
+M: Fairness / bias,llm,2025,0.42514878535608025,80,18346
+M: Fairness / bias,llm,2026,0.6012505666144615,93,17984
+M: Fairness / bias,other,2020,1.5045008619183617,90,6492
+M: Fairness / bias,other,2021,1.9095311570360467,140,7822
+M: Fairness / bias,other,2022,2.2321053297356603,184,8877
+M: Fairness / bias,other,2023,1.9497947484046894,213,11453
+M: Fairness / bias,other,2024,1.5190631478746595,214,14390
+M: Fairness / bias,other,2025,1.136803209324041,212,18346
+M: Fairness / bias,other,2026,0.8242153614143674,148,17984
+M: Fairness / bias,all,2020,1.5228363449151778,91,6492
+M: Fairness / bias,all,2021,2.0050032350633256,148,7822
+M: Fairness / bias,all,2022,2.292229722435753,190,8877
+M: Fairness / bias,all,2023,2.2848004575577225,251,11453
+M: Fairness / bias,all,2024,1.9701626642168462,277,14390
+M: Fairness / bias,all,2025,1.5634392760255214,292,18346
+M: Fairness / bias,all,2026,1.3786814251875354,241,17984
+M: Synthetic data / data augmentation,llm,2020,0.015690497515801937,1,6492
+M: Synthetic data / data augmentation,llm,2021,0.04116032547694866,3,7822
+M: Synthetic data / data augmentation,llm,2022,0.15927278679698426,14,8877
+M: Synthetic data / data augmentation,llm,2023,0.25837960258154596,28,11453
+M: Synthetic data / data augmentation,llm,2024,0.38539224767831776,56,14390
+M: Synthetic data / data augmentation,llm,2025,0.7689994104856417,140,18346
+M: Synthetic data / data augmentation,llm,2026,0.5041104018503604,91,17984
+M: Synthetic data / data augmentation,other,2020,2.053565159884914,141,6492
+M: Synthetic data / data augmentation,other,2021,3.2810295336049955,260,7822
+M: Synthetic data / data augmentation,other,2022,2.9996602146963287,279,8877
+M: Synthetic data / data augmentation,other,2023,2.8170274293906736,325,11453
+M: Synthetic data / data augmentation,other,2024,1.9794699495658028,292,14390
+M: Synthetic data / data augmentation,other,2025,1.8849997013299444,339,18346
+M: Synthetic data / data augmentation,other,2026,1.0756091228037172,201,17984
+M: Synthetic data / data augmentation,all,2020,2.0915952996585454,142,6492
+M: Synthetic data / data augmentation,all,2021,3.3652825483994784,263,7822
+M: Synthetic data / data augmentation,all,2022,3.1780617829983067,293,8877
+M: Synthetic data / data augmentation,all,2023,3.0916648486339255,353,11453
+M: Synthetic data / data augmentation,all,2024,2.3643711595446546,348,14390
+M: Synthetic data / data augmentation,all,2025,2.658325824527006,479,18346
+M: Synthetic data / data augmentation,all,2026,1.5632424977295378,292,17984
+M: Alignment / RLHF / preference optimization,llm,2020,0.017269785854331268,1,6492
+M: Alignment / RLHF / preference optimization,llm,2021,0.014128525311944126,1,7822
+M: Alignment / RLHF / preference optimization,llm,2022,0.04944085966645355,4,8877
+M: Alignment / RLHF / preference optimization,llm,2023,0.2342939654125316,25,11453
+M: Alignment / RLHF / preference optimization,llm,2024,1.5875349898061837,222,14390
+M: Alignment / RLHF / preference optimization,llm,2025,2.842903749149881,533,18346
+M: Alignment / RLHF / preference optimization,llm,2026,2.855088009757645,513,17984
+M: Alignment / RLHF / preference optimization,other,2020,0.06020302316429322,4,6492
+M: Alignment / RLHF / preference optimization,other,2021,0.08429629971601295,6,7822
+M: Alignment / RLHF / preference optimization,other,2022,0.11027058061621885,10,8877
+M: Alignment / RLHF / preference optimization,other,2023,0.1990961313239848,21,11453
+M: Alignment / RLHF / preference optimization,other,2024,0.5470039329498948,82,14390
+M: Alignment / RLHF / preference optimization,other,2025,0.8339917379578258,148,18346
+M: Alignment / RLHF / preference optimization,other,2026,0.9861599999841338,174,17984
+M: Alignment / RLHF / preference optimization,all,2020,0.08316339522299024,5,6492
+M: Alignment / RLHF / preference optimization,all,2021,0.09887919107777692,7,7822
+M: Alignment / RLHF / preference optimization,all,2022,0.16777595203376375,14,8877
+M: Alignment / RLHF / preference optimization,all,2023,0.4327951477417209,46,11453
+M: Alignment / RLHF / preference optimization,all,2024,2.132934737213955,304,14390
+M: Alignment / RLHF / preference optimization,all,2025,3.685274994131202,681,18346
+M: Alignment / RLHF / preference optimization,all,2026,3.8345856595859416,687,17984
+M: Clustering / unsupervised learning,llm,2020,0.10291894640397702,6,6492
+M: Clustering / unsupervised learning,llm,2021,0.08628945867423204,7,7822
+M: Clustering / unsupervised learning,llm,2022,0.23215084939417646,19,8877
+M: Clustering / unsupervised learning,llm,2023,0.31914360700407984,38,11453
+M: Clustering / unsupervised learning,llm,2024,0.5277093550798065,71,14390
+M: Clustering / unsupervised learning,llm,2025,0.5601249345129946,108,18346
+M: Clustering / unsupervised learning,llm,2026,0.7307016166625114,122,17984
+M: Clustering / unsupervised learning,other,2020,5.507550845740626,360,6492
+M: Clustering / unsupervised learning,other,2021,5.714601860322759,456,7822
+M: Clustering / unsupervised learning,other,2022,5.315867090640479,472,8877
+M: Clustering / unsupervised learning,other,2023,4.238603745825875,494,11453
+M: Clustering / unsupervised learning,other,2024,3.2865034870733147,471,14390
+M: Clustering / unsupervised learning,other,2025,2.602517059223377,479,18346
+M: Clustering / unsupervised learning,other,2026,1.705180870325384,319,17984
+M: Clustering / unsupervised learning,all,2020,5.669857886566136,366,6492
+M: Clustering / unsupervised learning,all,2021,5.797760353619454,463,7822
+M: Clustering / unsupervised learning,all,2022,5.580300854434142,491,8877
+M: Clustering / unsupervised learning,all,2023,4.556526561290374,532,11453
+M: Clustering / unsupervised learning,all,2024,3.808640342475801,542,14390
+M: Clustering / unsupervised learning,all,2025,3.1718646156650694,587,18346
+M: Clustering / unsupervised learning,all,2026,2.378295226726513,441,17984
+M: OOD / anomaly detection,llm,2020,3.9689822977688e-11,0,6492
+M: OOD / anomaly detection,llm,2021,0.01183907729465924,1,7822
+M: OOD / anomaly detection,llm,2022,0.011130076104755157,1,8877
+M: OOD / anomaly detection,llm,2023,0.09878931975282897,12,11453
+M: OOD / anomaly detection,llm,2024,0.305272194085278,43,14390
+M: OOD / anomaly detection,llm,2025,0.4343247747352312,81,18346
+M: OOD / anomaly detection,llm,2026,0.651068158358071,96,17984
+M: OOD / anomaly detection,other,2020,1.2658710491002485,84,6492
+M: OOD / anomaly detection,other,2021,1.3405769243801795,106,7822
+M: OOD / anomaly detection,other,2022,1.406557775107814,127,8877
+M: OOD / anomaly detection,other,2023,1.664581837290964,192,11453
+M: OOD / anomaly detection,other,2024,1.4070486565671003,204,14390
+M: OOD / anomaly detection,other,2025,1.2501814087651537,228,18346
+M: OOD / anomaly detection,other,2026,1.0647100113829144,193,17984
+M: OOD / anomaly detection,all,2020,1.2671949003677827,84,6492
+M: OOD / anomaly detection,all,2021,1.3391279432358207,107,7822
+M: OOD / anomaly detection,all,2022,1.4146508237540827,128,8877
+M: OOD / anomaly detection,all,2023,1.7545393106017584,204,11453
+M: OOD / anomaly detection,all,2024,1.7086314905908888,247,14390
+M: OOD / anomaly detection,all,2025,1.6903744285498488,309,18346
+M: OOD / anomaly detection,all,2026,1.6398224279146354,289,17984
+M: Combinatorial optimization / scheduling,llm,2020,0.01604079453604263,1,6492
+M: Combinatorial optimization / scheduling,llm,2021,0.014957601279564785,1,7822
+M: Combinatorial optimization / scheduling,llm,2022,0.011675350585945462,1,8877
+M: Combinatorial optimization / scheduling,llm,2023,0.02987440666961011,3,11453
+M: Combinatorial optimization / scheduling,llm,2024,0.12844472730302725,19,14390
+M: Combinatorial optimization / scheduling,llm,2025,0.2619417174392643,47,18346
+M: Combinatorial optimization / scheduling,llm,2026,0.5597612663325204,93,17984
+M: Combinatorial optimization / scheduling,other,2020,1.0687727571657333,61,6492
+M: Combinatorial optimization / scheduling,other,2021,0.9341664923694424,66,7822
+M: Combinatorial optimization / scheduling,other,2022,0.8915006924472314,71,8877
+M: Combinatorial optimization / scheduling,other,2023,0.8656853649364171,92,11453
+M: Combinatorial optimization / scheduling,other,2024,0.6749649652889006,94,14390
+M: Combinatorial optimization / scheduling,other,2025,0.7496293683852044,141,18346
+M: Combinatorial optimization / scheduling,other,2026,0.6604793367567853,113,17984
+M: Combinatorial optimization / scheduling,all,2020,1.0659295331171523,62,6492
+M: Combinatorial optimization / scheduling,all,2021,0.956922776371571,67,7822
+M: Combinatorial optimization / scheduling,all,2022,0.8909968887099363,72,8877
+M: Combinatorial optimization / scheduling,all,2023,0.902614772732318,95,11453
+M: Combinatorial optimization / scheduling,all,2024,0.8016767344663356,113,14390
+M: Combinatorial optimization / scheduling,all,2025,1.0085737853616275,188,18346
+M: Combinatorial optimization / scheduling,all,2026,1.2071078473587808,206,17984
+M: Spiking / neuromorphic networks,llm,2020,1.095693144962419e-11,0,6492
+M: Spiking / neuromorphic networks,llm,2021,9.640945029056801e-12,0,7822
+M: Spiking / neuromorphic networks,llm,2022,1.1513343039579172e-11,0,8877
+M: Spiking / neuromorphic networks,llm,2023,0.01055851223537151,1,11453
+M: Spiking / neuromorphic networks,llm,2024,0.01990225321457351,3,14390
+M: Spiking / neuromorphic networks,llm,2025,0.011323447202009732,2,18346
+M: Spiking / neuromorphic networks,llm,2026,0.03042329703023839,10,17984
+M: Spiking / neuromorphic networks,other,2020,0.23077787214537673,14,6492
+M: Spiking / neuromorphic networks,other,2021,0.2969175311740807,23,7822
+M: Spiking / neuromorphic networks,other,2022,0.48601920998384684,41,8877
+M: Spiking / neuromorphic networks,other,2023,0.3690608022633778,42,11453
+M: Spiking / neuromorphic networks,other,2024,0.529637535477629,74,14390
+M: Spiking / neuromorphic networks,other,2025,0.4529860451409562,85,18346
+M: Spiking / neuromorphic networks,other,2026,0.506859351898272,81,17984
+M: Spiking / neuromorphic networks,all,2020,0.23069507409922158,14,6492
+M: Spiking / neuromorphic networks,all,2021,0.2983264241895345,23,7822
+M: Spiking / neuromorphic networks,all,2022,0.4873074886944508,41,8877
+M: Spiking / neuromorphic networks,all,2023,0.37911731843532115,43,11453
+M: Spiking / neuromorphic networks,all,2024,0.5505110003611561,77,14390
+M: Spiking / neuromorphic networks,all,2025,0.46401971471207837,87,18346
+M: Spiking / neuromorphic networks,all,2026,0.5554783295907045,91,17984
+M: World models / video prediction,llm,2020,0.04542025705112554,3,6492
+M: World models / video prediction,llm,2021,1.484934236353539e-11,0,7822
+M: World models / video prediction,llm,2022,0.011078855375808942,1,8877
+M: World models / video prediction,llm,2023,0.06263888289783195,7,11453
+M: World models / video prediction,llm,2024,0.08197793388568363,12,14390
+M: World models / video prediction,llm,2025,0.20996224929036256,38,18346
+M: World models / video prediction,llm,2026,0.5511419078965721,86,17984
+M: World models / video prediction,other,2020,0.35206245706775596,24,6492
+M: World models / video prediction,other,2021,0.3859568515630716,28,7822
+M: World models / video prediction,other,2022,0.2924404243034389,27,8877
+M: World models / video prediction,other,2023,0.409769296527266,44,11453
+M: World models / video prediction,other,2024,0.45146450974445995,68,14390
+M: World models / video prediction,other,2025,0.780711289015065,138,18346
+M: World models / video prediction,other,2026,0.9671727132834669,187,17984
+M: World models / video prediction,all,2020,0.39603870622388304,27,6492
+M: World models / video prediction,all,2021,0.38416040376166777,28,7822
+M: World models / video prediction,all,2022,0.30303480698939306,28,8877
+M: World models / video prediction,all,2023,0.47387369083123165,51,11453
+M: World models / video prediction,all,2024,0.5315269989634606,80,14390
+M: World models / video prediction,all,2025,0.9949892168695443,176,18346
+M: World models / video prediction,all,2026,1.4550518478308936,273,17984
+M: Mixture of experts,llm,2020,0.03330363001430689,2,6492
+M: Mixture of experts,llm,2021,0.01337391175766937,1,7822
+M: Mixture of experts,llm,2022,0.059647290311161026,5,8877
+M: Mixture of experts,llm,2023,0.09939125946539068,11,11453
+M: Mixture of experts,llm,2024,0.2557971941000643,36,14390
+M: Mixture of experts,llm,2025,0.541204452192357,101,18346
+M: Mixture of experts,llm,2026,1.0992307116008637,178,17984
+M: Mixture of experts,other,2020,0.03167829612792677,2,6492
+M: Mixture of experts,other,2021,0.14971518708321507,12,7822
+M: Mixture of experts,other,2022,0.18447117583577838,16,8877
+M: Mixture of experts,other,2023,0.2315643281458062,27,11453
+M: Mixture of experts,other,2024,0.3754393298127345,53,14390
+M: Mixture of experts,other,2025,0.7304631185209702,136,18346
+M: Mixture of experts,other,2026,1.0620185924720213,172,17984
+M: Mixture of experts,all,2020,0.06512324340894243,4,6492
+M: Mixture of experts,all,2021,0.1663936886094388,13,7822
+M: Mixture of experts,all,2022,0.24712971994497882,21,8877
+M: Mixture of experts,all,2023,0.33196555574324,38,11453
+M: Mixture of experts,all,2024,0.6341488664709105,89,14390
+M: Mixture of experts,all,2025,1.267359616001691,237,18346
+M: Mixture of experts,all,2026,2.1565995758724164,350,17984
+M: Federated learning,llm,2020,0.03708158646862066,2,6492
+M: Federated learning,llm,2021,1.4104277383419451e-11,0,7822
+M: Federated learning,llm,2022,0.04019360030600349,3,8877
+M: Federated learning,llm,2023,0.05016735218407193,6,11453
+M: Federated learning,llm,2024,0.1704127020376148,22,14390
+M: Federated learning,llm,2025,0.22193299161027907,44,18346
+M: Federated learning,llm,2026,0.20091298335123176,35,17984
+M: Federated learning,other,2020,0.6857871874457765,41,6492
+M: Federated learning,other,2021,1.2450046146896165,94,7822
+M: Federated learning,other,2022,1.8567522113282826,152,8877
+M: Federated learning,other,2023,2.1235748362718154,238,11453
+M: Federated learning,other,2024,1.7649047720588225,246,14390
+M: Federated learning,other,2025,1.2554393726604178,236,18346
+M: Federated learning,other,2026,0.9923112472550606,185,17984
+M: Federated learning,all,2020,0.7248056605726347,43,6492
+M: Federated learning,all,2021,1.2393085658345488,94,7822
+M: Federated learning,all,2022,1.9061747786677907,155,8877
+M: Federated learning,all,2023,2.1677240503105635,244,11453
+M: Federated learning,all,2024,1.9331898396489657,268,14390
+M: Federated learning,all,2025,1.4835585042235007,280,18346
+M: Federated learning,all,2026,1.1850209324284,220,17984
+M: Video generation / editing,llm,2020,0.04327459535565803,3,6492
+M: Video generation / editing,llm,2021,0.01137574663746858,1,7822
+M: Video generation / editing,llm,2022,0.03162288133857797,3,8877
+M: Video generation / editing,llm,2023,0.05589808157773485,7,11453
+M: Video generation / editing,llm,2024,0.2222562068453918,32,14390
+M: Video generation / editing,llm,2025,0.5126195569860784,94,18346
+M: Video generation / editing,llm,2026,0.8850593885915904,141,17984
+M: Video generation / editing,other,2020,0.5025840169166376,37,6492
+M: Video generation / editing,other,2021,0.40207151840831246,35,7822
+M: Video generation / editing,other,2022,0.4541383356460012,45,8877
+M: Video generation / editing,other,2023,0.5654014301261736,70,11453
+M: Video generation / editing,other,2024,1.3635397704351964,203,14390
+M: Video generation / editing,other,2025,2.8838313975886387,515,18346
+M: Video generation / editing,other,2026,3.388103701964895,596,17984
+M: Video generation / editing,all,2020,0.5482775063986135,40,6492
+M: Video generation / editing,all,2021,0.41210592103977717,36,7822
+M: Video generation / editing,all,2022,0.48769895373913175,48,8877
+M: Video generation / editing,all,2023,0.6197937604609893,77,11453
+M: Video generation / editing,all,2024,1.5876453371537727,235,14390
+M: Video generation / editing,all,2025,3.394264078645525,609,18346
+M: Video generation / editing,all,2026,4.246572218243033,737,17984
+M: Autoregressive models / tokenizers,llm,2020,0.09919794641669591,6,6492
+M: Autoregressive models / tokenizers,llm,2021,0.09486693148824848,7,7822
+M: Autoregressive models / tokenizers,llm,2022,0.2615942180344733,22,8877
+M: Autoregressive models / tokenizers,llm,2023,0.46481333587841805,51,11453
+M: Autoregressive models / tokenizers,llm,2024,0.855641974648398,121,14390
+M: Autoregressive models / tokenizers,llm,2025,1.6672905328263055,310,18346
+M: Autoregressive models / tokenizers,llm,2026,2.6690198684246873,460,17984
+M: Autoregressive models / tokenizers,other,2020,0.7553704918969134,50,6492
+M: Autoregressive models / tokenizers,other,2021,0.8497461615932156,65,7822
+M: Autoregressive models / tokenizers,other,2022,0.8724049995232704,79,8877
+M: Autoregressive models / tokenizers,other,2023,0.9250831474545816,104,11453
+M: Autoregressive models / tokenizers,other,2024,0.8889196330180223,130,14390
+M: Autoregressive models / tokenizers,other,2025,1.722472000369876,312,18346
+M: Autoregressive models / tokenizers,other,2026,2.0882346401080625,385,17984
+M: Autoregressive models / tokenizers,all,2020,0.8842821273185263,56,6492
+M: Autoregressive models / tokenizers,all,2021,0.9560655191341061,72,7822
+M: Autoregressive models / tokenizers,all,2022,1.1578970852762724,101,8877
+M: Autoregressive models / tokenizers,all,2023,1.3922081299839968,155,11453
+M: Autoregressive models / tokenizers,all,2024,1.7472043287575085,251,14390
+M: Autoregressive models / tokenizers,all,2025,3.386118756028572,622,18346
+M: Autoregressive models / tokenizers,all,2026,4.688224941042559,845,17984
+M: Recurrent networks / LSTMs,llm,2020,0.26118797744425215,14,6492
+M: Recurrent networks / LSTMs,llm,2021,0.16267450050965135,11,7822
+M: Recurrent networks / LSTMs,llm,2022,0.17188374458949196,13,8877
+M: Recurrent networks / LSTMs,llm,2023,0.11496679348594419,12,11453
+M: Recurrent networks / LSTMs,llm,2024,0.09580279102293442,13,14390
+M: Recurrent networks / LSTMs,llm,2025,0.1460899456048615,28,18346
+M: Recurrent networks / LSTMs,llm,2026,0.09811774593088826,20,17984
+M: Recurrent networks / LSTMs,other,2020,2.1298532615231553,130,6492
+M: Recurrent networks / LSTMs,other,2021,1.529889213219344,110,7822
+M: Recurrent networks / LSTMs,other,2022,1.0656918487294116,91,8877
+M: Recurrent networks / LSTMs,other,2023,0.8355067571396612,90,11453
+M: Recurrent networks / LSTMs,other,2024,0.637400315031118,91,14390
+M: Recurrent networks / LSTMs,other,2025,0.5038003623457304,93,18346
+M: Recurrent networks / LSTMs,other,2026,0.3176626875255267,57,17984
+M: Recurrent networks / LSTMs,all,2020,2.4003636086335542,144,6492
+M: Recurrent networks / LSTMs,all,2021,1.6978870574838802,121,7822
+M: Recurrent networks / LSTMs,all,2022,1.2383347427620066,104,8877
+M: Recurrent networks / LSTMs,all,2023,0.9514528465382773,102,11453
+M: Recurrent networks / LSTMs,all,2024,0.7336581020050416,104,14390
+M: Recurrent networks / LSTMs,all,2025,0.6519121921991936,121,18346
+M: Recurrent networks / LSTMs,all,2026,0.4204233297278195,77,17984
+M: Healthcare / clinical,llm,2020,0.016028301284277072,1,6492
+M: Healthcare / clinical,llm,2021,0.05051992013999511,4,7822
+M: Healthcare / clinical,llm,2022,0.07970449279799945,7,8877
+M: Healthcare / clinical,llm,2023,0.182636380311421,21,11453
+M: Healthcare / clinical,llm,2024,0.6211467879438134,88,14390
+M: Healthcare / clinical,llm,2025,0.8832201128450651,164,18346
+M: Healthcare / clinical,llm,2026,1.625836332983651,216,17984
+M: Healthcare / clinical,other,2020,1.8556339962914108,117,6492
+M: Healthcare / clinical,other,2021,1.9687016107269122,152,7822
+M: Healthcare / clinical,other,2022,1.9431508565233413,169,8877
+M: Healthcare / clinical,other,2023,1.952566602689643,221,11453
+M: Healthcare / clinical,other,2024,1.7997705476542936,257,14390
+M: Healthcare / clinical,other,2025,1.8963675474577262,350,18346
+M: Healthcare / clinical,other,2026,1.951002009911057,323,17984
+M: Healthcare / clinical,all,2020,1.8723294268813806,118,6492
+M: Healthcare / clinical,all,2021,2.011891559941691,156,7822
+M: Healthcare / clinical,all,2022,2.0151649701988643,176,8877
+M: Healthcare / clinical,all,2023,2.1327432212390516,242,11453
+M: Healthcare / clinical,all,2024,2.4172206781752474,345,14390
+M: Healthcare / clinical,all,2025,2.7839234521404173,514,18346
+M: Healthcare / clinical,all,2026,3.385945039184661,539,17984
+M: Offline RL / imitation learning,llm,2020,4.534107697100217e-11,0,6492
+M: Offline RL / imitation learning,llm,2021,0.013859311412894426,1,7822
+M: Offline RL / imitation learning,llm,2022,0.12078342621485673,10,8877
+M: Offline RL / imitation learning,llm,2023,0.14859519952832068,16,11453
+M: Offline RL / imitation learning,llm,2024,0.22796448302662958,32,14390
+M: Offline RL / imitation learning,llm,2025,0.2353103331469621,44,18346
+M: Offline RL / imitation learning,llm,2026,0.3465971775321606,53,17984
+M: Offline RL / imitation learning,other,2020,1.3219472442824962,74,6492
+M: Offline RL / imitation learning,other,2021,1.8492515096490674,127,7822
+M: Offline RL / imitation learning,other,2022,2.0280451157441535,159,8877
+M: Offline RL / imitation learning,other,2023,1.8946484682215405,198,11453
+M: Offline RL / imitation learning,other,2024,1.5227894735907186,211,14390
+M: Offline RL / imitation learning,other,2025,1.1175222136352072,211,18346
+M: Offline RL / imitation learning,other,2026,1.008385970030108,185,17984
+M: Offline RL / imitation learning,all,2020,1.3149721179349712,74,6492
+M: Offline RL / imitation learning,all,2021,1.8541325549581926,128,7822
+M: Offline RL / imitation learning,all,2022,2.141164735229726,169,8877
+M: Offline RL / imitation learning,all,2023,2.0413456479996555,214,11453
+M: Offline RL / imitation learning,all,2024,1.7505875691693584,243,14390
+M: Offline RL / imitation learning,all,2025,1.3523458935031498,255,18346
+M: Offline RL / imitation learning,all,2026,1.320441797042427,238,17984
+M: Object detection,llm,2020,3.76206957818632e-11,0,6492
+M: Object detection,llm,2021,0.11849682671244657,11,7822
+M: Object detection,llm,2022,0.36329957340507973,35,8877
+M: Object detection,llm,2023,0.4893371590280028,64,11453
+M: Object detection,llm,2024,0.5879575802604997,84,14390
+M: Object detection,llm,2025,0.37937136191731424,70,18346
+M: Object detection,llm,2026,0.521954960716747,81,17984
+M: Object detection,other,2020,3.9566438515557842,304,6492
+M: Object detection,other,2021,4.049611352293332,369,7822
+M: Object detection,other,2022,4.446425377947216,459,8877
+M: Object detection,other,2023,3.480204211888258,447,11453
+M: Object detection,other,2024,2.4699479440113756,372,14390
+M: Object detection,other,2025,1.680814656503527,297,18346
+M: Object detection,other,2026,1.250475451215887,220,17984
+M: Object detection,all,2020,3.99462009702299,304,6492
+M: Object detection,all,2021,4.162266631369136,380,7822
+M: Object detection,all,2022,4.826428493449974,494,8877
+M: Object detection,all,2023,3.9713970594611756,511,11453
+M: Object detection,all,2024,3.0475437052961527,456,14390
+M: Object detection,all,2025,2.065362047947404,367,18346
+M: Object detection,all,2026,1.732274170851574,301,17984
+M: Novel view synthesis / neural rendering,llm,2020,4.6795750795840224e-11,0,6492
+M: Novel view synthesis / neural rendering,llm,2021,0.018862247971150672,2,7822
+M: Novel view synthesis / neural rendering,llm,2022,0.06450007542972873,5,8877
+M: Novel view synthesis / neural rendering,llm,2023,0.0405382247886083,6,11453
+M: Novel view synthesis / neural rendering,llm,2024,0.03387432253218803,4,14390
+M: Novel view synthesis / neural rendering,llm,2025,0.052565890743317745,11,18346
+M: Novel view synthesis / neural rendering,llm,2026,0.1586217186112392,18,17984
+M: Novel view synthesis / neural rendering,other,2020,0.755993893868653,62,6492
+M: Novel view synthesis / neural rendering,other,2021,1.1127287458972623,98,7822
+M: Novel view synthesis / neural rendering,other,2022,1.366384608319825,150,8877
+M: Novel view synthesis / neural rendering,other,2023,2.040725524359799,253,11453
+M: Novel view synthesis / neural rendering,other,2024,2.1886953587552753,346,14390
+M: Novel view synthesis / neural rendering,other,2025,2.227014785893009,377,18346
+M: Novel view synthesis / neural rendering,other,2026,1.7122029702948152,306,17984
+M: Novel view synthesis / neural rendering,all,2020,0.7627801495328842,62,6492
+M: Novel view synthesis / neural rendering,all,2021,1.1299758941052265,100,7822
+M: Novel view synthesis / neural rendering,all,2022,1.4236621085987218,155,8877
+M: Novel view synthesis / neural rendering,all,2023,2.0794572729036926,259,11453
+M: Novel view synthesis / neural rendering,all,2024,2.2290430325133324,350,14390
+M: Novel view synthesis / neural rendering,all,2025,2.2776198855105636,388,18346
+M: Novel view synthesis / neural rendering,all,2026,1.8271397617728578,324,17984
+M: Meta-learning,llm,2020,0.05760802848548749,3,6492
+M: Meta-learning,llm,2021,0.06827194497396469,5,7822
+M: Meta-learning,llm,2022,0.05367622368682956,4,8877
+M: Meta-learning,llm,2023,0.11766413956726253,13,11453
+M: Meta-learning,llm,2024,0.12173087621169304,16,14390
+M: Meta-learning,llm,2025,0.09187298714610818,18,18346
+M: Meta-learning,llm,2026,0.14968112206019418,25,17984
+M: Meta-learning,other,2020,2.507398136334101,155,6492
+M: Meta-learning,other,2021,2.5312060495401036,185,7822
+M: Meta-learning,other,2022,1.8180689239824384,155,8877
+M: Meta-learning,other,2023,1.4121705235528978,154,11453
+M: Meta-learning,other,2024,0.686165266086473,98,14390
+M: Meta-learning,other,2025,0.4985338348590883,92,18346
+M: Meta-learning,other,2026,0.3340711191897148,63,17984
+M: Meta-learning,all,2020,2.5927316759230776,158,6492
+M: Meta-learning,all,2021,2.602585925416545,190,7822
+M: Meta-learning,all,2022,1.8867573828505706,159,8877
+M: Meta-learning,all,2023,1.5308905249530207,167,11453
+M: Meta-learning,all,2024,0.8038960862970986,114,14390
+M: Meta-learning,all,2025,0.5928120500224399,110,18346
+M: Meta-learning,all,2026,0.4691767155765875,88,17984
+M: Kernel methods / Gaussian processes,llm,2020,1.3029000681599964e-11,0,6492
+M: Kernel methods / Gaussian processes,llm,2021,1.5496839738920395e-11,0,7822
+M: Kernel methods / Gaussian processes,llm,2022,0.02512925940493766,2,8877
+M: Kernel methods / Gaussian processes,llm,2023,0.04465949518875966,5,11453
+M: Kernel methods / Gaussian processes,llm,2024,0.07257187735622966,10,14390
+M: Kernel methods / Gaussian processes,llm,2025,0.07912818556264639,15,18346
+M: Kernel methods / Gaussian processes,llm,2026,0.07128168036466222,13,17984
+M: Kernel methods / Gaussian processes,other,2020,2.5957637700676433,148,6492
+M: Kernel methods / Gaussian processes,other,2021,2.455038434418704,171,7822
+M: Kernel methods / Gaussian processes,other,2022,2.1198083470143874,166,8877
+M: Kernel methods / Gaussian processes,other,2023,1.7227835845943957,181,11453
+M: Kernel methods / Gaussian processes,other,2024,1.1738630655175042,164,14390
+M: Kernel methods / Gaussian processes,other,2025,0.8686453040787983,163,18346
+M: Kernel methods / Gaussian processes,other,2026,0.6427207597738585,117,17984
+M: Kernel methods / Gaussian processes,all,2020,2.593357388032354,148,6492
+M: Kernel methods / Gaussian processes,all,2021,2.4478164271394367,171,7822
+M: Kernel methods / Gaussian processes,all,2022,2.1434424425167764,168,8877
+M: Kernel methods / Gaussian processes,all,2023,1.7663576481273437,186,11453
+M: Kernel methods / Gaussian processes,all,2024,1.2458041998239477,174,14390
+M: Kernel methods / Gaussian processes,all,2025,0.9483770350170155,178,18346
+M: Kernel methods / Gaussian processes,all,2026,0.7146665961009665,130,17984
+M: Graph neural networks,llm,2020,0.2635306977001579,15,6492
+M: Graph neural networks,llm,2021,0.054971492067233195,4,7822
+M: Graph neural networks,llm,2022,0.16037340824899185,13,8877
+M: Graph neural networks,llm,2023,0.12841281141900815,14,11453
+M: Graph neural networks,llm,2024,0.2102303955621631,29,14390
+M: Graph neural networks,llm,2025,0.2639703521916078,50,18346
+M: Graph neural networks,llm,2026,0.2910212055410428,47,17984
+M: Graph neural networks,other,2020,4.305933950097357,254,6492
+M: Graph neural networks,other,2021,4.2033977156936215,302,7822
+M: Graph neural networks,other,2022,4.186339760504546,341,8877
+M: Graph neural networks,other,2023,3.7563305033871064,406,11453
+M: Graph neural networks,other,2024,3.1694981186843068,444,14390
+M: Graph neural networks,other,2025,2.5040742138015935,469,18346
+M: Graph neural networks,other,2026,1.4604756241925339,283,17984
+M: Graph neural networks,all,2020,4.572711832027303,269,6492
+M: Graph neural networks,all,2021,4.255689107798574,306,7822
+M: Graph neural networks,all,2022,4.349614219874148,354,8877
+M: Graph neural networks,all,2023,3.883088009952397,420,11453
+M: Graph neural networks,all,2024,3.381124833667045,473,14390
+M: Graph neural networks,all,2025,2.7682313873342173,519,18346
+M: Graph neural networks,all,2026,1.7192344252389506,330,17984
+M: Hallucination / factuality,llm,2020,0.016063212202828147,1,6492
+M: Hallucination / factuality,llm,2021,0.013060832062586611,1,7822
+M: Hallucination / factuality,llm,2022,0.06922635215828778,6,8877
+M: Hallucination / factuality,llm,2023,0.15089959633620434,17,11453
+M: Hallucination / factuality,llm,2024,1.1119369191457402,158,14390
+M: Hallucination / factuality,llm,2025,1.651751547349422,306,18346
+M: Hallucination / factuality,llm,2026,2.4953689908507455,409,17984
+M: Hallucination / factuality,other,2020,0.013803004678009545,1,6492
+M: Hallucination / factuality,other,2021,0.03703440663255103,3,7822
+M: Hallucination / factuality,other,2022,0.030670356503132913,3,8877
+M: Hallucination / factuality,other,2023,0.05191408018624512,6,11453
+M: Hallucination / factuality,other,2024,0.10530789230678542,16,14390
+M: Hallucination / factuality,other,2025,0.17670491507621905,31,18346
+M: Hallucination / factuality,other,2026,0.3243910261006113,48,17984
+M: Hallucination / factuality,all,2020,0.03155749982817317,2,6492
+M: Hallucination / factuality,all,2021,0.051881461699096965,4,7822
+M: Hallucination / factuality,all,2022,0.10239517038979228,9,8877
+M: Hallucination / factuality,all,2023,0.20348527337721314,23,11453
+M: Hallucination / factuality,all,2024,1.2155192682996374,174,14390
+M: Hallucination / factuality,all,2025,1.8294640371871709,337,18346
+M: Hallucination / factuality,all,2026,2.817293578981789,457,17984
+M: Foundation models,llm,2020,0.01515385055170334,1,6492
+M: Foundation models,llm,2021,0.012459412323079946,1,7822
+M: Foundation models,llm,2022,0.15303363260555286,14,8877
+M: Foundation models,llm,2023,0.6770435155512923,79,11453
+M: Foundation models,llm,2024,1.7033597073721878,246,14390
+M: Foundation models,llm,2025,2.0552979179241744,376,18346
+M: Foundation models,llm,2026,1.7659083782825662,291,17984
+M: Foundation models,other,2020,0.01440822728717878,1,6492
+M: Foundation models,other,2021,0.03660065915211187,3,7822
+M: Foundation models,other,2022,0.2547369761283937,24,8877
+M: Foundation models,other,2023,0.7289565710438997,86,11453
+M: Foundation models,other,2024,2.2142047162430782,326,14390
+M: Foundation models,other,2025,3.0583185154826364,551,18346
+M: Foundation models,other,2026,3.7446991357575627,630,17984
+M: Foundation models,all,2020,0.029281997306527217,2,6492
+M: Foundation models,all,2021,0.04924526938484689,4,7822
+M: Foundation models,all,2022,0.40672865885441395,38,8877
+M: Foundation models,all,2023,1.4063954277757205,165,11453
+M: Foundation models,all,2024,3.906993468106971,572,14390
+M: Foundation models,all,2025,5.121762299344272,927,18346
+M: Foundation models,all,2026,5.516562282798121,921,17984
+M: GANs,llm,2020,0.08033003056364481,5,6492
+M: GANs,llm,2021,0.07022148769714683,6,7822
+M: GANs,llm,2022,0.1491963702889748,13,8877
+M: GANs,llm,2023,0.137514666025828,17,11453
+M: GANs,llm,2024,0.08040191474712129,11,14390
+M: GANs,llm,2025,0.06297591768181655,12,18346
+M: GANs,llm,2026,0.043918048182549255,7,17984
+M: GANs,other,2020,4.129912255975574,284,6492
+M: GANs,other,2021,3.4935341226083287,288,7822
+M: GANs,other,2022,2.9807305315538835,279,8877
+M: GANs,other,2023,1.9041621468301368,228,11453
+M: GANs,other,2024,1.085030372758902,158,14390
+M: GANs,other,2025,0.5172511955931021,94,18346
+M: GANs,other,2026,0.25767206244207785,50,17984
+M: GANs,all,2020,4.221092856219861,289,6492
+M: GANs,all,2021,3.5613014608432025,294,7822
+M: GANs,all,2022,3.1296223506087317,292,8877
+M: GANs,all,2023,2.04343928675994,245,11453
+M: GANs,all,2024,1.1638458470464124,169,14390
+M: GANs,all,2025,0.5819589925347578,106,18346
+M: GANs,all,2026,0.2962006321376529,57,17984
+M: Image retrieval / metric learning,llm,2020,0.04460173103609525,3,6492
+M: Image retrieval / metric learning,llm,2021,0.044131547734353446,4,7822
+M: Image retrieval / metric learning,llm,2022,0.09719375953301278,9,8877
+M: Image retrieval / metric learning,llm,2023,0.2092005235310862,27,11453
+M: Image retrieval / metric learning,llm,2024,0.17869990334613983,25,14390
+M: Image retrieval / metric learning,llm,2025,0.19204176701603548,36,18346
+M: Image retrieval / metric learning,llm,2026,0.22875998469709424,37,17984
+M: Image retrieval / metric learning,other,2020,1.3511790184934054,101,6492
+M: Image retrieval / metric learning,other,2021,1.0209895240526992,88,7822
+M: Image retrieval / metric learning,other,2022,0.7267674380479001,73,8877
+M: Image retrieval / metric learning,other,2023,0.6258911041690012,77,11453
+M: Image retrieval / metric learning,other,2024,0.4778035525278643,72,14390
+M: Image retrieval / metric learning,other,2025,0.3735997928953989,66,18346
+M: Image retrieval / metric learning,other,2026,0.20051011547216266,38,17984
+M: Image retrieval / metric learning,all,2020,1.4188307400772484,104,6492
+M: Image retrieval / metric learning,all,2021,1.0576813148996531,92,7822
+M: Image retrieval / metric learning,all,2022,0.8288036041402925,82,8877
+M: Image retrieval / metric learning,all,2023,0.8378139842201279,104,11453
+M: Image retrieval / metric learning,all,2024,0.6527490041258144,97,14390
+M: Image retrieval / metric learning,all,2025,0.5706193185170748,102,18346
+M: Image retrieval / metric learning,all,2026,0.40658914308330457,75,17984
+M: In-context learning,llm,2020,1.7169526270310063e-11,0,6492
+M: In-context learning,llm,2021,1.684724297993597e-11,0,7822
+M: In-context learning,llm,2022,0.12594594541216347,10,8877
+M: In-context learning,llm,2023,0.5109738960206738,54,11453
+M: In-context learning,llm,2024,1.1245810214591934,156,14390
+M: In-context learning,llm,2025,1.0389878429588548,196,18346
+M: In-context learning,llm,2026,0.6271448713245199,119,17984
+M: In-context learning,other,2020,0.01639880225416975,1,6492
+M: In-context learning,other,2021,1.6676704553604604e-11,0,7822
+M: In-context learning,other,2022,0.011909940731730803,1,8877
+M: In-context learning,other,2023,0.2282801317539777,24,11453
+M: In-context learning,other,2024,0.3474581039153274,50,14390
+M: In-context learning,other,2025,0.4578780848223581,84,18346
+M: In-context learning,other,2026,0.39908786259702006,73,17984
+M: In-context learning,all,2020,0.017265850941457377,1,6492
+M: In-context learning,all,2021,1.6795242840337656e-11,0,7822
+M: In-context learning,all,2022,0.13624531757162922,11,8877
+M: In-context learning,all,2023,0.7390912978402873,78,11453
+M: In-context learning,all,2024,1.4685341640842235,206,14390
+M: In-context learning,all,2025,1.4966619626014497,280,18346
+M: In-context learning,all,2026,1.022309777293059,192,17984
+M: LLMs / language models,llm,2020,1.5089477780364868,87,6492
+M: LLMs / language models,llm,2021,2.0493911046760016,147,7822
+M: LLMs / language models,llm,2022,3.072800665223604,249,8877
+M: LLMs / language models,llm,2023,6.618620488951802,714,11453
+M: LLMs / language models,llm,2024,17.828870137754123,2489,14390
+M: LLMs / language models,llm,2025,25.25522189808792,4736,18346
+M: LLMs / language models,llm,2026,32.32975021710387,5585,17984
+M: LLMs / language models,other,2020,0.0,0,6492
+M: LLMs / language models,other,2021,0.0,0,7822
+M: LLMs / language models,other,2022,0.0,0,8877
+M: LLMs / language models,other,2023,0.0,0,11453
+M: LLMs / language models,other,2024,0.0,0,14390
+M: LLMs / language models,other,2025,0.0,0,18346
+M: LLMs / language models,other,2026,0.0,0,17984
+M: LLMs / language models,all,2020,1.5089477780364868,87,6492
+M: LLMs / language models,all,2021,2.0493911046760016,147,7822
+M: LLMs / language models,all,2022,3.072800665223604,249,8877
+M: LLMs / language models,all,2023,6.618620488951802,714,11453
+M: LLMs / language models,all,2024,17.828870137754123,2489,14390
+M: LLMs / language models,all,2025,25.25522189808792,4736,18346
+M: LLMs / language models,all,2026,32.32975021710387,5585,17984
+M: Fine-tuning / PEFT / prompting,llm,2020,0.36385245172026554,22,6492
+M: Fine-tuning / PEFT / prompting,llm,2021,0.5421632488833942,41,7822
+M: Fine-tuning / PEFT / prompting,llm,2022,1.3478704854403396,114,8877
+M: Fine-tuning / PEFT / prompting,llm,2023,2.9539417361566715,331,11453
+M: Fine-tuning / PEFT / prompting,llm,2024,7.112702945809629,999,14390
+M: Fine-tuning / PEFT / prompting,llm,2025,8.535469847113763,1595,18346
+M: Fine-tuning / PEFT / prompting,llm,2026,10.02202042196539,1694,17984
+M: Fine-tuning / PEFT / prompting,other,2020,2.324971913748093,157,6492
+M: Fine-tuning / PEFT / prompting,other,2021,2.421517420881237,199,7822
+M: Fine-tuning / PEFT / prompting,other,2022,3.2043398676691828,294,8877
+M: Fine-tuning / PEFT / prompting,other,2023,4.48314111402935,533,11453
+M: Fine-tuning / PEFT / prompting,other,2024,5.383359464264358,778,14390
+M: Fine-tuning / PEFT / prompting,other,2025,5.715340958322954,1045,18346
+M: Fine-tuning / PEFT / prompting,other,2026,5.3938498428926,977,17984
+M: Fine-tuning / PEFT / prompting,all,2020,2.8238403298673487,179,6492
+M: Fine-tuning / PEFT / prompting,all,2021,3.046527871626061,240,7822
+M: Fine-tuning / PEFT / prompting,all,2022,4.664566051270482,408,8877
+M: Fine-tuning / PEFT / prompting,all,2023,7.484670332779357,864,11453
+M: Fine-tuning / PEFT / prompting,all,2024,12.519090376936296,1777,14390
+M: Fine-tuning / PEFT / prompting,all,2025,14.241395451431007,2640,18346
+M: Fine-tuning / PEFT / prompting,all,2026,15.203714777318211,2671,17984
+M: Flow matching / normalizing flows,llm,2020,5.719908642137547e-12,0,6492
+M: Flow matching / normalizing flows,llm,2021,5.500172064818082e-12,0,7822
+M: Flow matching / normalizing flows,llm,2022,5.459130867918237e-12,0,8877
+M: Flow matching / normalizing flows,llm,2023,0.008779652873128221,1,11453
+M: Flow matching / normalizing flows,llm,2024,0.034797190894748184,5,14390
+M: Flow matching / normalizing flows,llm,2025,0.13066944591867244,24,18346
+M: Flow matching / normalizing flows,llm,2026,0.6791444441253335,64,17984
+M: Flow matching / normalizing flows,other,2020,0.8936942840204002,57,6492
+M: Flow matching / normalizing flows,other,2021,0.667335264213484,51,7822
+M: Flow matching / normalizing flows,other,2022,0.5600183413524693,49,8877
+M: Flow matching / normalizing flows,other,2023,0.5979559100888377,67,11453
+M: Flow matching / normalizing flows,other,2024,0.6669838865396114,96,14390
+M: Flow matching / normalizing flows,other,2025,1.5155741020946076,278,18346
+M: Flow matching / normalizing flows,other,2026,2.540343188631222,423,17984
+M: Flow matching / normalizing flows,all,2020,0.8919482481682351,57,6492
+M: Flow matching / normalizing flows,all,2021,0.665760912019563,51,7822
+M: Flow matching / normalizing flows,all,2022,0.5572707572107595,49,8877
+M: Flow matching / normalizing flows,all,2023,0.606173272523489,68,11453
+M: Flow matching / normalizing flows,all,2024,0.7009507938999588,101,14390
+M: Flow matching / normalizing flows,all,2025,1.6478328205890407,302,18346
+M: Flow matching / normalizing flows,all,2026,2.9942862190274844,487,17984
+M: Bandits / online learning,llm,2020,1.846202041125996e-11,0,6492
+M: Bandits / online learning,llm,2021,1.4099665278984904e-11,0,7822
+M: Bandits / online learning,llm,2022,0.012713357707619942,1,8877
+M: Bandits / online learning,llm,2023,0.03885384821125359,4,11453
+M: Bandits / online learning,llm,2024,0.11452674217689411,16,14390
+M: Bandits / online learning,llm,2025,0.2291473087611324,43,18346
+M: Bandits / online learning,llm,2026,0.29643610336272713,51,17984
+M: Bandits / online learning,other,2020,3.642531860778381,210,6492
+M: Bandits / online learning,other,2021,3.493402366092541,248,7822
+M: Bandits / online learning,other,2022,3.3275300392110547,263,8877
+M: Bandits / online learning,other,2023,3.0196938895730243,320,11453
+M: Bandits / online learning,other,2024,2.051353849527787,288,14390
+M: Bandits / online learning,other,2025,1.6314060601965368,305,18346
+M: Bandits / online learning,other,2026,0.9452913578512526,156,17984
+M: Bandits / online learning,all,2020,3.6531036294133927,210,6492
+M: Bandits / online learning,all,2021,3.5051577754617242,248,7822
+M: Bandits / online learning,all,2022,3.3424691279497183,264,8877
+M: Bandits / online learning,all,2023,3.063677607505559,324,11453
+M: Bandits / online learning,all,2024,2.167005570209529,304,14390
+M: Bandits / online learning,all,2025,1.8602880582786103,348,18346
+M: Bandits / online learning,all,2026,1.253969169626862,207,17984
+M: 3D Gaussian splatting,llm,2020,5.337630322241673e-12,0,6492
+M: 3D Gaussian splatting,llm,2021,4.558853739399814e-12,0,7822
+M: 3D Gaussian splatting,llm,2022,5.43786165259831e-12,0,8877
+M: 3D Gaussian splatting,llm,2023,4.777797904452544e-12,0,11453
+M: 3D Gaussian splatting,llm,2024,0.03674101062492958,5,14390
+M: 3D Gaussian splatting,llm,2025,0.17781604318965014,34,18346
+M: 3D Gaussian splatting,llm,2026,0.2364909529602718,37,17984
+M: 3D Gaussian splatting,other,2020,4.692077799623645e-12,0,6492
+M: 3D Gaussian splatting,other,2021,5.007047397541269e-12,0,7822
+M: 3D Gaussian splatting,other,2022,4.7501531092613824e-12,0,8877
+M: 3D Gaussian splatting,other,2023,5.227425357849984e-12,0,11453
+M: 3D Gaussian splatting,other,2024,1.4362236361503344,222,14390
+M: 3D Gaussian splatting,other,2025,2.8029397436984587,485,18346
+M: 3D Gaussian splatting,other,2026,2.676832009515199,442,17984
+M: 3D Gaussian splatting,all,2020,4.729997367813462e-12,0,6492
+M: 3D Gaussian splatting,all,2021,4.97220185657363e-12,0,7822
+M: 3D Gaussian splatting,all,2022,4.790181298750125e-12,0,8877
+M: 3D Gaussian splatting,all,2023,5.193111129141574e-12,0,11453
+M: 3D Gaussian splatting,all,2024,1.4799113452279336,227,14390
+M: 3D Gaussian splatting,all,2025,2.979423859319072,519,18346
+M: 3D Gaussian splatting,all,2026,2.9127296356891215,479,17984
+M: Convolutional networks,llm,2020,0.10925405801333718,7,6492
+M: Convolutional networks,llm,2021,0.20356360828270914,16,7822
+M: Convolutional networks,llm,2022,0.09142314994378122,8,8877
+M: Convolutional networks,llm,2023,0.13911878136417996,16,11453
+M: Convolutional networks,llm,2024,0.1330828950829165,19,14390
+M: Convolutional networks,llm,2025,0.14085135649399738,26,18346
+M: Convolutional networks,llm,2026,0.1178899522014408,21,17984
+M: Convolutional networks,other,2020,7.999215895122642,548,6492
+M: Convolutional networks,other,2021,6.443770319784046,549,7822
+M: Convolutional networks,other,2022,5.280095674048734,494,8877
+M: Convolutional networks,other,2023,3.2777100844545144,404,11453
+M: Convolutional networks,other,2024,1.793285525704723,258,14390
+M: Convolutional networks,other,2025,1.335166631636651,245,18346
+M: Convolutional networks,other,2026,0.798673628646075,149,17984
+M: Convolutional networks,all,2020,8.117245292410797,555,6492
+M: Convolutional networks,all,2021,6.659866567260098,565,7822
+M: Convolutional networks,all,2022,5.377307407977891,502,8877
+M: Convolutional networks,all,2023,3.4199625579356,420,11453
+M: Convolutional networks,all,2024,1.9245349992980232,277,14390
+M: Convolutional networks,all,2025,1.4773582423234055,271,18346
+M: Convolutional networks,all,2026,0.9110809315723281,170,17984
+M: Datasets / benchmarks,llm,2020,0.17830774082621256,11,6492
+M: Datasets / benchmarks,llm,2021,0.44123936013163434,35,7822
+M: Datasets / benchmarks,llm,2022,0.43688838059525265,38,8877
+M: Datasets / benchmarks,llm,2023,0.8336218727560398,96,11453
+M: Datasets / benchmarks,llm,2024,2.1680110462440996,305,14390
+M: Datasets / benchmarks,llm,2025,3.2090794356125616,599,18346
+M: Datasets / benchmarks,llm,2026,5.253085837493988,685,17984
+M: Datasets / benchmarks,other,2020,2.114054830556827,146,6492
+M: Datasets / benchmarks,other,2021,3.554618919959699,300,7822
+M: Datasets / benchmarks,other,2022,3.184850361554477,304,8877
+M: Datasets / benchmarks,other,2023,3.9677373800297824,478,11453
+M: Datasets / benchmarks,other,2024,3.406012764397955,498,14390
+M: Datasets / benchmarks,other,2025,3.367424417445243,610,18346
+M: Datasets / benchmarks,other,2026,3.1211464880292876,435,17984
+M: Datasets / benchmarks,all,2020,2.387666731491791,157,6492
+M: Datasets / benchmarks,all,2021,4.0621353718762885,335,7822
+M: Datasets / benchmarks,all,2022,3.7366126200110203,342,8877
+M: Datasets / benchmarks,all,2023,4.840484240928294,574,11453
+M: Datasets / benchmarks,all,2024,5.597615247559264,803,14390
+M: Datasets / benchmarks,all,2025,6.574415898464812,1209,18346
+M: Datasets / benchmarks,all,2026,8.054109022357684,1120,17984
+M: Depth / stereo / optical flow / matching,llm,2020,0.028361957632230143,2,6492
+M: Depth / stereo / optical flow / matching,llm,2021,1.2711675292378721e-11,0,7822
+M: Depth / stereo / optical flow / matching,llm,2022,0.09429129432935923,9,8877
+M: Depth / stereo / optical flow / matching,llm,2023,0.07456121881264609,10,11453
+M: Depth / stereo / optical flow / matching,llm,2024,0.14214929379684085,20,14390
+M: Depth / stereo / optical flow / matching,llm,2025,0.1714379988427091,32,18346
+M: Depth / stereo / optical flow / matching,llm,2026,0.3140955916266938,49,17984
+M: Depth / stereo / optical flow / matching,other,2020,3.0711860489670286,244,6492
+M: Depth / stereo / optical flow / matching,other,2021,2.9628625792881014,276,7822
+M: Depth / stereo / optical flow / matching,other,2022,2.9443108374859457,313,8877
+M: Depth / stereo / optical flow / matching,other,2023,2.481277314273557,324,11453
+M: Depth / stereo / optical flow / matching,other,2024,2.203288879162644,336,14390
+M: Depth / stereo / optical flow / matching,other,2025,2.327438807664514,407,18346
+M: Depth / stereo / optical flow / matching,other,2026,1.7290351951560545,311,17984
+M: Depth / stereo / optical flow / matching,all,2020,3.113380789294907,246,6492
+M: Depth / stereo / optical flow / matching,all,2021,2.962351233738668,276,7822
+M: Depth / stereo / optical flow / matching,all,2022,3.04420595390176,322,8877
+M: Depth / stereo / optical flow / matching,all,2023,2.556619426658867,334,11453
+M: Depth / stereo / optical flow / matching,all,2024,2.342728411270922,356,14390
+M: Depth / stereo / optical flow / matching,all,2025,2.5026923541190205,439,18346
+M: Depth / stereo / optical flow / matching,all,2026,2.010701310483827,360,17984
+M: Diffusion models / score-based,llm,2020,1.4499793565218464e-11,0,6492
+M: Diffusion models / score-based,llm,2021,1.3694467460172091e-11,0,7822
+M: Diffusion models / score-based,llm,2022,0.08902502133771091,8,8877
+M: Diffusion models / score-based,llm,2023,0.7103476124873207,85,11453
+M: Diffusion models / score-based,llm,2024,1.5008407954572074,213,14390
+M: Diffusion models / score-based,llm,2025,2.1680287428884544,402,18346
+M: Diffusion models / score-based,llm,2026,3.724501854306319,581,17984
+M: Diffusion models / score-based,other,2020,0.3461647306603603,24,6492
+M: Diffusion models / score-based,other,2021,0.6111480096258827,51,7822
+M: Diffusion models / score-based,other,2022,1.191024749108158,112,8877
+M: Diffusion models / score-based,other,2023,5.917499909694779,709,11453
+M: Diffusion models / score-based,other,2024,12.045134738547508,1756,14390
+M: Diffusion models / score-based,other,2025,13.111302557695408,2381,18346
+M: Diffusion models / score-based,other,2026,11.591323307650315,2056,17984
+M: Diffusion models / score-based,all,2020,0.34927334786435155,24,6492
+M: Diffusion models / score-based,all,2021,0.6097429826400592,51,7822
+M: Diffusion models / score-based,all,2022,1.2842234304201425,120,8877
+M: Diffusion models / score-based,all,2023,6.6163113670535205,794,11453
+M: Diffusion models / score-based,all,2024,13.563760197998665,1969,14390
+M: Diffusion models / score-based,all,2025,15.273339785473357,2783,18346
+M: Diffusion models / score-based,all,2026,15.089864058953633,2637,17984
+M: Optimal transport,llm,2020,0.06408959324716429,4,6492
+M: Optimal transport,llm,2021,0.024434788154308062,2,7822
+M: Optimal transport,llm,2022,0.023267227190686017,2,8877
+M: Optimal transport,llm,2023,0.06731702748085569,8,11453
+M: Optimal transport,llm,2024,0.17211403085761198,24,14390
+M: Optimal transport,llm,2025,0.2075390927206161,39,18346
+M: Optimal transport,llm,2026,0.3449585617255118,56,17984
+M: Optimal transport,other,2020,2.069944995875054,124,6492
+M: Optimal transport,other,2021,2.0437225099769707,148,7822
+M: Optimal transport,other,2022,1.8503575315560257,152,8877
+M: Optimal transport,other,2023,1.7452686097359078,189,11453
+M: Optimal transport,other,2024,1.4021085200984638,198,14390
+M: Optimal transport,other,2025,1.4719864290963958,274,18346
+M: Optimal transport,other,2026,1.3941383596303591,261,17984
+M: Optimal transport,all,2020,2.123466779347695,128,6492
+M: Optimal transport,all,2021,2.0513653398083713,150,7822
+M: Optimal transport,all,2022,1.8624620464410886,154,8877
+M: Optimal transport,all,2023,1.8065662997863001,197,11453
+M: Optimal transport,all,2024,1.5708777938661753,222,14390
+M: Optimal transport,all,2025,1.682468728475724,313,18346
+M: Optimal transport,all,2026,1.7139025672861357,317,17984
+M: Reasoning / chain-of-thought,llm,2020,1.5816469178492463,97,6492
+M: Reasoning / chain-of-thought,llm,2021,1.4878637600854048,114,7822
+M: Reasoning / chain-of-thought,llm,2022,1.3485603826791022,116,8877
+M: Reasoning / chain-of-thought,llm,2023,2.197454658384921,247,11453
+M: Reasoning / chain-of-thought,llm,2024,3.923964370535493,555,14390
+M: Reasoning / chain-of-thought,llm,2025,8.199639627133582,1524,18346
+M: Reasoning / chain-of-thought,llm,2026,17.381658493166196,2651,17984
+M: Reasoning / chain-of-thought,other,2020,0.0,0,6492
+M: Reasoning / chain-of-thought,other,2021,0.0,0,7822
+M: Reasoning / chain-of-thought,other,2022,0.0,0,8877
+M: Reasoning / chain-of-thought,other,2023,0.0,0,11453
+M: Reasoning / chain-of-thought,other,2024,0.0,0,14390
+M: Reasoning / chain-of-thought,other,2025,0.0,0,18346
+M: Reasoning / chain-of-thought,other,2026,0.0,0,17984
+M: Reasoning / chain-of-thought,all,2020,1.5816469178492463,97,6492
+M: Reasoning / chain-of-thought,all,2021,1.4878637600854048,114,7822
+M: Reasoning / chain-of-thought,all,2022,1.3485603826791022,116,8877
+M: Reasoning / chain-of-thought,all,2023,2.197454658384921,247,11453
+M: Reasoning / chain-of-thought,all,2024,3.923964370535493,555,14390
+M: Reasoning / chain-of-thought,all,2025,8.199639627133582,1524,18346
+M: Reasoning / chain-of-thought,all,2026,17.381658493166196,2651,17984
+M: Segmentation,llm,2020,0.02629969780410412,2,6492
+M: Segmentation,llm,2021,0.1152834383180766,10,7822
+M: Segmentation,llm,2022,0.29303671695551536,30,8877
+M: Segmentation,llm,2023,0.7162442398503293,88,11453
+M: Segmentation,llm,2024,1.2948822830141502,197,14390
+M: Segmentation,llm,2025,1.4494153005735109,254,18346
+M: Segmentation,llm,2026,1.536678726756571,260,17984
+M: Segmentation,other,2020,6.195455999685863,469,6492
+M: Segmentation,other,2021,6.57073708469661,606,7822
+M: Segmentation,other,2022,6.289184302717111,641,8877
+M: Segmentation,other,2023,6.048411256683109,786,11453
+M: Segmentation,other,2024,5.05153443029152,751,14390
+M: Segmentation,other,2025,3.8782906447056855,693,18346
+M: Segmentation,other,2026,3.2632857815891922,569,17984
+M: Segmentation,all,2020,6.215351985425244,471,6492
+M: Segmentation,all,2021,6.742757955907829,616,7822
+M: Segmentation,all,2022,6.580020554748884,671,8877
+M: Segmentation,all,2023,6.788114280806007,874,11453
+M: Segmentation,all,2024,6.352568048898247,948,14390
+M: Segmentation,all,2025,5.317298647102906,947,18346
+M: Segmentation,all,2026,4.763402521106638,829,17984
+M: Retrieval-augmented generation,llm,2020,0.03458263677642959,2,6492
+M: Retrieval-augmented generation,llm,2021,1.5917123781729902e-11,0,7822
+M: Retrieval-augmented generation,llm,2022,0.04908348051069847,4,8877
+M: Retrieval-augmented generation,llm,2023,0.14707209761035245,16,11453
+M: Retrieval-augmented generation,llm,2024,0.4464082276287669,62,14390
+M: Retrieval-augmented generation,llm,2025,0.8277448913855431,156,18346
+M: Retrieval-augmented generation,llm,2026,1.0441451880115515,181,17984
+M: Retrieval-augmented generation,other,2020,0.015185806908558244,1,6492
+M: Retrieval-augmented generation,other,2021,0.026161768999699048,2,7822
+M: Retrieval-augmented generation,other,2022,0.033135341829209256,3,8877
+M: Retrieval-augmented generation,other,2023,0.026814137255577963,3,11453
+M: Retrieval-augmented generation,other,2024,0.18409036793131972,27,14390
+M: Retrieval-augmented generation,other,2025,0.2213696473225992,40,18346
+M: Retrieval-augmented generation,other,2026,0.22631723047532548,38,17984
+M: Retrieval-augmented generation,all,2020,0.05038193636052904,3,6492
+M: Retrieval-augmented generation,all,2021,0.0272919139445259,2,7822
+M: Retrieval-augmented generation,all,2022,0.08390735619313398,7,8877
+M: Retrieval-augmented generation,all,2023,0.17370383091253128,19,11453
+M: Retrieval-augmented generation,all,2024,0.6330942598234026,89,14390
+M: Retrieval-augmented generation,all,2025,1.049412640000219,196,18346
+M: Retrieval-augmented generation,all,2026,1.2696611311315305,219,17984
+M: Semi- / weakly supervised & noisy labels,llm,2020,0.138959787360117,10,6492
+M: Semi- / weakly supervised & noisy labels,llm,2021,0.07465606085588371,6,7822
+M: Semi- / weakly supervised & noisy labels,llm,2022,0.22569350429524787,22,8877
+M: Semi- / weakly supervised & noisy labels,llm,2023,0.49046442932920326,57,11453
+M: Semi- / weakly supervised & noisy labels,llm,2024,0.4377431037906879,66,14390
+M: Semi- / weakly supervised & noisy labels,llm,2025,0.5605865889517266,99,18346
+M: Semi- / weakly supervised & noisy labels,llm,2026,0.47321654586141276,87,17984
+M: Semi- / weakly supervised & noisy labels,other,2020,4.863762383861075,353,6492
+M: Semi- / weakly supervised & noisy labels,other,2021,5.452322460293672,454,7822
+M: Semi- / weakly supervised & noisy labels,other,2022,5.227629130373438,511,8877
+M: Semi- / weakly supervised & noisy labels,other,2023,4.543000714741904,544,11453
+M: Semi- / weakly supervised & noisy labels,other,2024,2.799494505003463,420,14390
+M: Semi- / weakly supervised & noisy labels,other,2025,2.17744109575447,386,18346
+M: Semi- / weakly supervised & noisy labels,other,2026,1.362346560336782,256,17984
+M: Semi- / weakly supervised & noisy labels,all,2020,5.007594867943576,363,6492
+M: Semi- / weakly supervised & noisy labels,all,2021,5.546501147312087,460,7822
+M: Semi- / weakly supervised & noisy labels,all,2022,5.456620052280541,533,8877
+M: Semi- / weakly supervised & noisy labels,all,2023,5.036275366025599,601,11453
+M: Semi- / weakly supervised & noisy labels,all,2024,3.238077380511511,486,14390
+M: Semi- / weakly supervised & noisy labels,all,2025,2.736703874319072,485,18346
+M: Semi- / weakly supervised & noisy labels,all,2026,1.82746113572292,343,17984
+M: Statistical estimation / high-dimensional statistics,llm,2020,0.01711691698896319,1,6492
+M: Statistical estimation / high-dimensional statistics,llm,2021,0.013756871018333406,1,7822
+M: Statistical estimation / high-dimensional statistics,llm,2022,0.012148885274697206,1,8877
+M: Statistical estimation / high-dimensional statistics,llm,2023,0.03716830103525291,4,11453
+M: Statistical estimation / high-dimensional statistics,llm,2024,0.09954263247458293,14,14390
+M: Statistical estimation / high-dimensional statistics,llm,2025,0.11782552127161194,22,18346
+M: Statistical estimation / high-dimensional statistics,llm,2026,0.22616324603543098,31,17984
+M: Statistical estimation / high-dimensional statistics,other,2020,2.393569718282233,143,6492
+M: Statistical estimation / high-dimensional statistics,other,2021,2.3752086181302836,170,7822
+M: Statistical estimation / high-dimensional statistics,other,2022,2.013482044935529,164,8877
+M: Statistical estimation / high-dimensional statistics,other,2023,1.995096638801901,213,11453
+M: Statistical estimation / high-dimensional statistics,other,2024,1.3592253654560515,193,14390
+M: Statistical estimation / high-dimensional statistics,other,2025,0.9170852959365073,170,18346
+M: Statistical estimation / high-dimensional statistics,other,2026,0.7167164928672506,127,17984
+M: Statistical estimation / high-dimensional statistics,all,2020,2.4144946393317697,144,6492
+M: Statistical estimation / high-dimensional statistics,all,2021,2.389531331169628,171,7822
+M: Statistical estimation / high-dimensional statistics,all,2022,2.0255209446469755,165,8877
+M: Statistical estimation / high-dimensional statistics,all,2023,2.0328274211359196,217,11453
+M: Statistical estimation / high-dimensional statistics,all,2024,1.4587697083117495,207,14390
+M: Statistical estimation / high-dimensional statistics,all,2025,1.0352519098644901,192,18346
+M: Statistical estimation / high-dimensional statistics,all,2026,0.9001510131542027,158,17984
+M: State-space models / Mamba / linear attention,llm,2020,4.6021857463954296e-11,0,6492
+M: State-space models / Mamba / linear attention,llm,2021,0.013835749094391671,1,7822
+M: State-space models / Mamba / linear attention,llm,2022,0.03779963985826332,3,8877
+M: State-space models / Mamba / linear attention,llm,2023,0.10119470232410231,11,11453
+M: State-space models / Mamba / linear attention,llm,2024,0.28256992187713764,39,14390
+M: State-space models / Mamba / linear attention,llm,2025,0.36442454808429975,69,18346
+M: State-space models / Mamba / linear attention,llm,2026,0.33731175177068395,63,17984
+M: State-space models / Mamba / linear attention,other,2020,0.031536716293979215,2,6492
+M: State-space models / Mamba / linear attention,other,2021,0.08268031802509929,7,7822
+M: State-space models / Mamba / linear attention,other,2022,0.0568485180979602,5,8877
+M: State-space models / Mamba / linear attention,other,2023,0.1637050460087373,20,11453
+M: State-space models / Mamba / linear attention,other,2024,0.58956720840106,82,14390
+M: State-space models / Mamba / linear attention,other,2025,1.4237764418424221,268,18346
+M: State-space models / Mamba / linear attention,other,2026,0.9668194463057564,152,17984
+M: State-space models / Mamba / linear attention,all,2020,0.03251246091912127,2,6492
+M: State-space models / Mamba / linear attention,all,2021,0.09760557083937833,8,7822
+M: State-space models / Mamba / linear attention,all,2022,0.0937194367924815,8,8877
+M: State-space models / Mamba / linear attention,all,2023,0.25981806178597316,31,11453
+M: State-space models / Mamba / linear attention,all,2024,0.8755890285533557,121,14390
+M: State-space models / Mamba / linear attention,all,2025,1.7818644616930706,337,18346
+M: State-space models / Mamba / linear attention,all,2026,1.313337675117435,215,17984
+M: Transformers / attention,llm,2020,0.6558663859330766,40,6492
+M: Transformers / attention,llm,2021,1.3209230708838406,101,7822
+M: Transformers / attention,llm,2022,1.7290076944873982,146,8877
+M: Transformers / attention,llm,2023,2.1230625727624473,240,11453
+M: Transformers / attention,llm,2024,3.563662139422191,500,14390
+M: Transformers / attention,llm,2025,4.245179445209798,794,18346
+M: Transformers / attention,llm,2026,4.866310663123181,861,17984
+M: Transformers / attention,other,2020,4.187339757685825,288,6492
+M: Transformers / attention,other,2021,7.096450568678139,602,7822
+M: Transformers / attention,other,2022,11.473678554942644,1068,8877
+M: Transformers / attention,other,2023,11.078712410425268,1348,11453
+M: Transformers / attention,other,2024,10.692119892199777,1544,14390
+M: Transformers / attention,other,2025,9.70131696977984,1775,18346
+M: Transformers / attention,other,2026,8.85666752890307,1605,17984
+M: Transformers / attention,all,2020,4.916415291500939,328,6492
+M: Transformers / attention,all,2021,8.481339717278093,703,7822
+M: Transformers / attention,all,2022,13.368620853593466,1214,8877
+M: Transformers / attention,all,2023,13.268399302648652,1588,11453
+M: Transformers / attention,all,2024,14.270995108961305,2044,14390
+M: Transformers / attention,all,2025,13.951415418551024,2569,18346
+M: Transformers / attention,all,2026,13.61106380287831,2466,17984
+M: Vision-language / multimodal LLMs,llm,2020,0.25422387589092044,18,6492
+M: Vision-language / multimodal LLMs,llm,2021,0.5400144649381845,47,7822
+M: Vision-language / multimodal LLMs,llm,2022,2.094838365230792,202,8877
+M: Vision-language / multimodal LLMs,llm,2023,4.582041354500741,566,11453
+M: Vision-language / multimodal LLMs,llm,2024,8.601538857755731,1257,14390
+M: Vision-language / multimodal LLMs,llm,2025,12.88652362449238,2336,18346
+M: Vision-language / multimodal LLMs,llm,2026,18.6863792281679,3042,17984
+M: Vision-language / multimodal LLMs,other,2020,0.0,0,6492
+M: Vision-language / multimodal LLMs,other,2021,0.0,0,7822
+M: Vision-language / multimodal LLMs,other,2022,0.0,0,8877
+M: Vision-language / multimodal LLMs,other,2023,0.0,0,11453
+M: Vision-language / multimodal LLMs,other,2024,0.0,0,14390
+M: Vision-language / multimodal LLMs,other,2025,0.0,0,18346
+M: Vision-language / multimodal LLMs,other,2026,0.0,0,17984
+M: Vision-language / multimodal LLMs,all,2020,0.25422387589092044,18,6492
+M: Vision-language / multimodal LLMs,all,2021,0.5400144649381845,47,7822
+M: Vision-language / multimodal LLMs,all,2022,2.094838365230792,202,8877
+M: Vision-language / multimodal LLMs,all,2023,4.582041354500741,566,11453
+M: Vision-language / multimodal LLMs,all,2024,8.601538857755731,1257,14390
+M: Vision-language / multimodal LLMs,all,2025,12.88652362449238,2336,18346
+M: Vision-language / multimodal LLMs,all,2026,18.6863792281679,3042,17984

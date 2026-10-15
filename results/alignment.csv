@@ -1,0 +1,53 @@
+topic,align_2020_23,align_2024_26,unrelated_median_2024_26,lead1_gain,align_change
+World models / video prediction,0.189,0.14,-0.009,0.405,-0.049
+Clustering / unsupervised learning,0.418,0.151,-0.029,0.069,-0.268
+Mixture of experts,0.245,0.163,0.048,0.095,-0.082
+Synthetic data / data augmentation,0.434,0.249,0.063,0.002,-0.185
+Time series / forecasting,0.442,0.258,-0.021,0.061,-0.184
+Video generation / editing,0.668,0.281,-0.001,0.284,-0.387
+Optimal transport,0.28,0.289,0.027,-0.086,0.01
+Face analysis,0.377,0.292,0.11,0.107,-0.084
+Autonomous driving,0.406,0.303,-0.205,-0.032,-0.103
+Image generation / editing,0.44,0.313,0.125,0.018,-0.127
+Image retrieval / metric learning,0.271,0.335,0.059,0.039,0.064
+Healthcare / clinical,0.363,0.348,0.078,0.082,-0.015
+Foundation models,0.593,0.352,-0.089,0.493,-0.241
+Fairness / bias,0.493,0.364,0.108,0.264,-0.129
+Semi- / weakly supervised & noisy labels,0.389,0.377,-0.104,0.322,-0.012
+Bayesian & probabilistic inference,0.637,0.379,0.084,0.012,-0.258
+Flow matching / normalizing flows,0.669,0.387,0.094,0.16,-0.282
+Autoregressive models / tokenizers,0.745,0.402,0.101,0.388,-0.343
+VAEs / vector-quantized models,0.615,0.403,0.027,0.036,-0.212
+OOD / anomaly detection,0.62,0.413,0.104,0.111,-0.206
+Graph neural networks,0.38,0.42,0.032,0.002,0.04
+Datasets / benchmarks,0.473,0.448,-0.003,0.079,-0.025
+Transformers / attention,0.637,0.451,-0.093,0.056,-0.185
+Alignment / RLHF / preference optimization,,0.452,0.079,-0.29,
+State-space models / Mamba / linear attention,,0.455,0.023,0.171,
+In-context learning,0.818,0.465,0.159,-0.105,-0.353
+Combinatorial optimization / scheduling,0.591,0.474,0.088,0.015,-0.116
+Offline RL / imitation learning,0.229,0.476,-0.056,-0.173,0.247
+Bandits / online learning,0.269,0.483,-0.044,0.275,0.215
+Privacy,0.497,0.486,0.206,0.028,-0.01
+Reinforcement learning,0.629,0.488,0.065,0.031,-0.141
+Meta-learning,0.368,0.49,0.027,-0.085,0.122
+Diffusion models / score-based,0.383,0.511,-0.031,0.326,0.127
+Hallucination / factuality,,0.516,0.162,0.109,
+Reasoning / chain-of-thought,0.645,0.528,0.062,0.255,-0.116
+GANs,0.51,0.543,0.094,-0.123,0.034
+Statistical estimation / high-dimensional statistics,0.38,0.55,0.13,-0.039,0.171
+Recurrent networks / LSTMs,0.405,0.555,0.09,0.048,0.149
+Novel view synthesis / neural rendering,0.463,0.557,-0.114,-0.107,0.094
+3D reconstruction / SfM / SLAM,0.57,0.56,-0.167,0.06,-0.009
+Federated learning,0.594,0.576,0.127,0.087,-0.018
+Spiking / neuromorphic networks,0.776,0.578,-0.037,0.035,-0.198
+Retrieval-augmented generation,,0.59,0.116,0.465,
+Segmentation,0.74,0.593,-0.318,0.074,-0.148
+Depth / stereo / optical flow / matching,0.62,0.65,-0.215,-0.004,0.031
+Vision-language / multimodal LLMs,0.61,0.669,0.004,-0.092,0.059
+Convolutional networks,0.57,0.674,0.095,-0.008,0.104
+3D Gaussian splatting,,0.685,-0.085,0.484,
+Kernel methods / Gaussian processes,0.596,0.686,0.047,-0.037,0.091
+Object detection,0.574,0.738,-0.097,0.09,0.164
+LLMs / language models,0.722,0.742,0.234,0.214,0.021
+Fine-tuning / PEFT / prompting,0.599,0.758,0.198,-0.075,0.159
