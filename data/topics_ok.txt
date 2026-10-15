@@ -1,0 +1,52 @@
+Reinforcement learning
+Bayesian & probabilistic inference
+Autonomous driving
+Image generation / editing
+3D reconstruction / SfM / SLAM
+Face analysis
+Time series / forecasting
+Privacy
+VAEs / vector-quantized models
+Fairness / bias
+Synthetic data / data augmentation
+Alignment / RLHF / preference optimization
+Clustering / unsupervised learning
+OOD / anomaly detection
+Combinatorial optimization / scheduling
+Spiking / neuromorphic networks
+World models / video prediction
+Mixture of experts
+Federated learning
+Video generation / editing
+Autoregressive models / tokenizers
+Recurrent networks / LSTMs
+Healthcare / clinical
+Offline RL / imitation learning
+Object detection
+Novel view synthesis / neural rendering
+Meta-learning
+Kernel methods / Gaussian processes
+Graph neural networks
+Hallucination / factuality
+Foundation models
+GANs
+Image retrieval / metric learning
+In-context learning
+LLMs / language models
+Fine-tuning / PEFT / prompting
+Flow matching / normalizing flows
+Bandits / online learning
+3D Gaussian splatting
+Convolutional networks
+Datasets / benchmarks
+Depth / stereo / optical flow / matching
+Diffusion models / score-based
+Optimal transport
+Reasoning / chain-of-thought
+Segmentation
+Retrieval-augmented generation
+Semi- / weakly supervised & noisy labels
+Statistical estimation / high-dimensional statistics
+State-space models / Mamba / linear attention
+Transformers / attention
+Vision-language / multimodal LLMs

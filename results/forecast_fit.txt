@@ -1,0 +1,5 @@
+fit 2022-2026: a = 0.110, b = 0.635;  fit 2022-2025 (full years only): a = 0.109, b = 0.606
+out-of-sample residuals (n = 156): 80% [-0.42, 0.46], 95% [-0.82, 1.08] logit
+leave-one-year-out coverage of the 80% interval: 2024: 0.67, 2025: 0.77, 2026: 0.88
+leave-one-year-out coverage of the 95% interval: 2024: 0.87, 2025: 0.94, 2026: 0.98
+Spearman of the 2027 forecasts, fit with vs without 2026: 1.000

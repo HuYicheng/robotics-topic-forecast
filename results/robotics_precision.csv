@@ -1,0 +1,97 @@
+topic,precision_2020,precision_2024,pool_2020,pool_2024
+AI for science: molecules / proteins / materials,0.0,0.0,134.0,119.0
+Optimization,0.25,0.0,155.0,130.0
+Recommendation / information retrieval,0.26,0.07,19.0,15.0
+3D humans / avatars / motion,0.39,0.19,209.0,207.0
+Learning theory / generalization,0.02,0.19,213.0,91.0
+Scientific ML / PDEs / physics,0.31,0.3,96.0,170.0
+Agents / tool use,0.0,0.39,24.0,49.0
+Medical imaging,0.58,0.41,221.0,248.0
+OCR / documents / charts,0.56,0.43,13.0,18.0
+Human pose / body / hands,0.5,0.46,166.0,157.0
+Point clouds / 3D understanding,0.59,0.48,1114.0,1264.0
+3D / 4D generation,0.31,0.48,7.0,30.0
+Causal inference / discovery,0.51,0.5,46.0,49.0
+Equivariant / geometric deep learning,0.18,0.5,108.0,127.0
+Quantization / pruning / compression,0.43,0.5,33.0,58.0
+Image restoration / low-level vision,0.84,0.56,61.0,136.0
+Scaling laws / pretraining,0.46,0.56,14.0,26.0
+Multimodal learning / cross-modal,0.66,0.57,564.0,929.0
+NLP tasks,0.68,0.58,51.0,55.0
+Video understanding / action recognition,0.74,0.58,89.0,140.0
+Graph learning / knowledge graphs,0.75,0.58,57.0,54.0
+Self-supervised / contrastive learning,1.0,0.62,386.0,411.0
+Object 6D pose estimation,0.62,0.63,176.0,163.0
+Tracking / re-identification,0.74,0.67,179.0,197.0
+Multi-task / transfer learning,0.56,0.67,159.0,167.0
+Speech / audio / music,0.73,0.67,155.0,139.0
+Visual QA / captioning / grounding,0.67,0.67,69.0,158.0
+Active learning / data selection,0.92,0.67,37.0,34.0
+Image classification / recognition,1.0,0.68,41.0,39.0
+Efficient inference / sampling,0.3,0.69,20.0,76.0
+Remote sensing / earth observation,1.0,0.72,47.0,52.0
+Neural ODEs / dynamical systems,0.62,0.73,131.0,127.0
+Domain adaptation / generalization / shift,0.9,0.75,146.0,212.0
+Uncertainty / calibration / conformal,0.83,0.75,155.0,221.0
+Code generation / software,0.18,0.76,11.0,16.0
+Continual / incremental learning,0.83,0.77,54.0,69.0
+Reinforcement learning,0.92,0.8,1352.0,1370.0
+Bayesian & probabilistic inference,1.0,0.83,255.0,166.0
+Autonomous driving,0.9,0.83,1112.0,1141.0
+Image generation / editing,0.91,0.83,38.0,54.0
+Few-shot / zero-shot / open-vocabulary,0.67,0.83,158.0,470.0
+3D reconstruction / SfM / SLAM,1.0,0.83,821.0,820.0
+Interpretability / explainability,0.72,0.83,171.0,239.0
+Face analysis,0.88,0.83,46.0,48.0
+Adversarial robustness / attacks,0.67,0.84,40.0,39.0
+Time series / forecasting,0.86,0.84,47.0,32.0
+Privacy,0.89,0.86,34.0,37.0
+VAEs / vector-quantized models,1.0,0.86,56.0,78.0
+Fairness / bias,0.0,0.88,10.0,16.0
+Event cameras / computational imaging,0.71,0.88,83.0,94.0
+Synthetic data / data augmentation,0.87,0.88,121.0,157.0
+Alignment / RLHF / preference optimization,1.0,0.89,24.0,65.0
+Clustering / unsupervised learning,0.92,0.89,217.0,140.0
+OOD / anomaly detection,0.91,0.9,69.0,81.0
+Neural fields / NeRF,0.63,0.9,104.0,253.0
+Combinatorial optimization / scheduling,0.88,0.9,164.0,149.0
+Spiking / neuromorphic networks,0.98,0.9,42.0,39.0
+World models / video prediction,1.0,0.92,28.0,91.0
+Mixture of experts,1.0,0.92,11.0,32.0
+Federated learning,1.0,0.92,8.0,13.0
+Video generation / editing,1.0,0.93,7.0,44.0
+Autoregressive models / tokenizers,0.96,0.98,23.0,44.0
+Recurrent networks / LSTMs,1.0,0.98,171.0,111.0
+Healthcare / clinical,1.0,0.99,352.0,400.0
+Offline RL / imitation learning,1.0,1.0,435.0,674.0
+Object detection,1.0,1.0,319.0,359.0
+Novel view synthesis / neural rendering,0.96,1.0,32.0,106.0
+Multi-agent learning / game theory,0.67,1.0,179.0,181.0
+Meta-learning,0.91,1.0,46.0,33.0
+Kernel methods / Gaussian processes,1.0,1.0,205.0,124.0
+Knowledge distillation,0.76,1.0,48.0,150.0
+Graph neural networks,0.93,1.0,165.0,147.0
+Hallucination / factuality,1.0,1.0,1.0,33.0
+Foundation models,0.68,1.0,15.0,294.0
+GANs,0.95,1.0,74.0,44.0
+Image retrieval / metric learning,0.86,1.0,145.0,127.0
+In-context learning,1.0,1.0,5.0,32.0
+LLMs / language models,0.94,1.0,52.0,539.0
+Fine-tuning / PEFT / prompting,1.0,1.0,161.0,483.0
+Flow matching / normalizing flows,1.0,1.0,12.0,65.0
+Bandits / online learning,1.0,1.0,44.0,30.0
+3D Gaussian splatting,,1.0,0.0,222.0
+Convolutional networks,1.0,1.0,384.0,157.0
+Datasets / benchmarks,0.88,1.0,262.0,375.0
+Depth / stereo / optical flow / matching,1.0,1.0,446.0,458.0
+Diffusion models / score-based,1.0,1.0,29.0,512.0
+Optimal transport,0.91,1.0,17.0,26.0
+Reasoning / chain-of-thought,0.83,1.0,70.0,283.0
+Segmentation,1.0,1.0,541.0,581.0
+Robotics / embodied AI,1.0,1.0,8268.0,7943.0
+Retrieval-augmented generation,0.0,1.0,1.0,28.0
+Semi- / weakly supervised & noisy labels,0.92,1.0,96.0,96.0
+Statistical estimation / high-dimensional statistics,1.0,1.0,49.0,30.0
+State-space models / Mamba / linear attention,0.0,1.0,1.0,42.0
+Transformers / attention,1.0,1.0,356.0,708.0
+Vision-language / multimodal LLMs,1.0,1.0,45.0,591.0
